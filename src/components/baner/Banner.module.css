@@ -1,0 +1,73 @@
+.ban {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.text {
+    width: 500px;
+    text-align: center;
+    margin-top: 100px;
+    z-index: 4;
+}
+.heard{
+    z-index: 5;
+}
+
+.macaronshop {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.banner_title p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.banner_love h1 {
+    margin: 24px 0 14px;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.banner_love p {
+    margin: 24px 0 14px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ellipse {
+    position: absolute;
+    top: 400;
+    bottom: 0;
+    right: 300;
+}
+
+.ellipse1 {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ellipse2 img {
+    z-index: -10;
+    width: 450px;
+    position: absolute;
+    top: 0;
+    bottom: 00px;
+    left: 327px;
+}
+
+.ellipse3 img {
+    z-index: -1;
+    position: absolute;
+    top: 130px;
+    right: 105px;
+}

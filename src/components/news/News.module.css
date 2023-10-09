@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.blocks {
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.block {
+    width: 370px;
+    height: 420px;
+    border: rgba(0, 1, 0, 1);
+    background-color: #FFFFFF;
+}
+
+.discr {
+    padding: 20px 0 0 20px;
+}
+
+.data {}
+
+.pr {
+    padding: 7px 0;
+}
+
+.dscr p {
+    font-family: Proxima Nova;
+    color: #292929;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    width: 189px;
+    padding: 10px;
+    border: 1px solid #4E9DD3;
+    background-color: white;
+    margin: 35px 0 85px;
+}

@@ -1,0 +1,39 @@
+footer {
+    background: #EBEDEE;
+}
+
+.footer {
+    height: 318px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_flex {
+    display: flex;
+}
+
+.icon_flex {
+    display: flex;
+}
+
+.icon_flex p {
+    width: 140px;
+    margin-bottom: 48px;
+}
+
+.icon_flex img {
+    margin: 0 0 10px 30px;
+}
+
+.adres {
+    width: 370px;
+    color: #292929;
+    font-size: 12px;
+}
+
+.list {
+    display: flex;
+}

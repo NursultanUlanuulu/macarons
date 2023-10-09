@@ -1,0 +1,81 @@
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.title h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.cards {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 371px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+
+.heard {
+    padding-bottom: 10px;
+}
+
+.text {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    padding-left: 10px;
+    text-align: start;
+    color: #E7426A;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.cart {
+    width: 50%;
+    display: flex;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+.page_numbers {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid #d3ced2;
+}
+
+.page_numbers li {
+    margin-right: 10px;
+    border-right: 1px solid #d3ced2;
+    border-right: 0;
+    margin: 1px;
+}
