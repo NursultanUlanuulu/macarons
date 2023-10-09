@@ -64,18 +64,26 @@
 
 nav {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .page_numbers {
     display: flex;
     justify-content: center;
-    padding: 0;
-    border: 1px solid #d3ced2;
 }
 
 .page_numbers li {
-    margin-right: 10px;
-    border-right: 1px solid #d3ced2;
-    border-right: 0;
-    margin: 1px;
+    margin: 0 10px 0;
+    border: 1px solid #d3ced2;
+    width: 30px;
+    color: #8a7e88;
+}
+.page_numbers li a {
+    color: #E7426A;
+}
+.page_numbers li a:hover {
+    color: #8a7e88;
+}
+.page_numbers li:hover {
+    background-color: #d3ced2;
 }

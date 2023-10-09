@@ -81,3 +81,10 @@
 .nav ul li:hover ul {
     display: initial;
 }
+.hover{
+    /* padding-top: 8px; */
+}
+.hover:hover{
+    border-bottom: 2px solid red;
+    /* padding:0 0 12px; */
+}

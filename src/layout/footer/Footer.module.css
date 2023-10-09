@@ -37,3 +37,9 @@ footer {
 .list {
     display: flex;
 }
+ul li{
+    margin-top: 10px;
+}
+.text{
+    margin-left: 30px;
+}

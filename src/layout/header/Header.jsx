@@ -31,7 +31,7 @@ const Header = () => {
                     <div className={style.header_second}>
                         <div className={style.nav}>
                             <ul>
-                                <li><Link to='/sales_week'>СЛАДКИЕ ДНИ</Link></li>
+                                <li className={style.hover}><Link to='/sales_week'>СЛАДКИЕ ДНИ</Link></li>
                                 <li>ПОДАРОЧНЫЕ НАБОРЫ<DownOutlined />
                                     <ul>
                                         <li>ВСЕ НАБОРЫ</li>
@@ -43,7 +43,7 @@ const Header = () => {
                                         <li>ДЕТСКИЕ ПРАЗДНИКИ</li>
                                     </ul>
                                 </li>
-                                <li>СОБРАТЬ НАБОР</li>
+                                <li className={style.hover}>СОБРАТЬ НАБОР</li>
                             </ul>
                         </div>
                         <div>
@@ -52,7 +52,7 @@ const Header = () => {
                         </div>
                         <div className={style.nav}>
                             <ul>
-                                <li>СОЗДАТЬ ДИЗАЙН</li>
+                                <li className={style.hover}>СОЗДАТЬ ДИЗАЙН</li>
                                 <li>КОМПАНИЯМ <DownOutlined />
                                     <ul>
                                         <li>ОПТОВЫЕ ПОСТАВКИ</li>

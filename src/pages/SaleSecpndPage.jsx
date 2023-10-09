@@ -12,7 +12,7 @@ const SaleSecpndPage = () => {
           <h3>Неделя скидок на авторские и подарочные наборы макарон</h3>
         </div>
         <div className={style.cards}>
-          {popularData?.map((item) => (
+          {popularData.slice(2.19).map((item) => (
             <div className={style.card} key={item.id}>
               <div className="">
                 <img src={item.img} alt="" />
@@ -32,12 +32,10 @@ const SaleSecpndPage = () => {
           ))}
         </div>
         <nav>
-          <ul class="page-numbers">
-            ::before
+          <ul className={style.page_numbers}>
+            <li><Link to='/sales_week'>←</Link></li>
             <li><Link to='/sales_week'>1</Link></li>
-            <li><Link>2</Link></li>
-            <li><a class="next page-numbers" href="/sales-week/?product-page=2">→</a></li>
-            ::after
+            <li>2</li>
           </ul>
         </nav>
       </div>

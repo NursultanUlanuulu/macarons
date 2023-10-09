@@ -10,7 +10,7 @@ const Supplies = () => {
                     <img src={suplples} alt="" />
                 </div>
                 <div className={style.text}>
-                    <h1>Десерты для кофеен и кафе</h1>
+                    <h1>Десерты для кофеин и кафе</h1>
                     <div className={style.text_title}>
                         <div className={style.sell}>
                             <p>Акция! Специальные условия доставки по России.
@@ -42,10 +42,10 @@ const Supplies = () => {
                 <h2 className={style.titl}>Продукция от кондитерской фабрики Macaronshop — это</h2>
                 <div className={style.food}>
                     {sulpesFooterData.map((item) => (
-                            <div className={style.card}>
-                                <img src={item.img} alt="" />
-                                <p>{item.title}</p>
-                            </div>
+                        <div className={style.card}>
+                            <img src={item.img} alt="" />
+                            <p>{item.title}</p>
+                        </div>
                     ))}
                 </div>
             </div>

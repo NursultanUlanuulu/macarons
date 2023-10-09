@@ -46,15 +46,21 @@ import catalog2 from '../../assets/img/desertsCatalog/catalog2.png'
 import catalog3 from '../../assets/img/desertsCatalog/catalog3.png'
 import catalog4 from '../../assets/img/desertsCatalog/catalog4.png'
 
+///////about/////////////
+import about from '../../assets/img/about/about.png'
+import about2 from '../../assets/img/about/about2.png'
+import about3 from '../../assets/img/about/about3.png'
+import about4 from '../../assets/img/about/about4.png'
 /////////путь////////
 export const INITIAL_PATH = {
     main_page: '/',
     guarantee: '/guarantee',
     podarochnye_nabory: '/podarochnye_nabory',
-    deserty_dlya_kofejni: '/deserty_dlya_kofejni/',
+    deserty_dlya_kofejni: '/deserty_dlya_kofejni',
     catalog_desertov: '/catalog_desertov',
     sales_week:'/sales_week',
     sales_week_page_two:'/sales_week/page_two',
+    o_nas:'/o_nas',
 }
 
 ///////header/////////
@@ -384,8 +390,9 @@ export const featuresData = [
     {
         id: 1,
         img: card,
-        title: 'Готовые наборы',
+        title: 'Подарочные наборы',
         description: 'Готовые наборы со скидкой. Вы можете подобрать набор на подходящий случай.',
+        path: '/podarochnye_nabory'
     },
     {
         id: 2,
@@ -415,7 +422,8 @@ export const featuresData = [
         id: 6,
         img: card6,
         title: 'Оптовые поставки',
-        description: "Предложение для кофеен, кафе, отелей и т.д.Посмотрите условия сотрудничества и отзывы."
+        description: "Предложение для кофеен, кафе, отелей и т.д.Посмотрите условия сотрудничества и отзывы.",
+        path: '/deserty_dlya_kofejni'
     },
 ]
 /////////////guarantee-гарантияData//////
@@ -544,5 +552,19 @@ export const DesertsCatalogData = [
         id:3,
         img:catalog4,
         title:'Комбо-наборы',
+    },
+]
+export const aboutData = [
+    {
+        img:about
+    },
+    {
+        img:about2
+    },
+    {
+        img:about3
+    },
+    {
+        img:about4
     },
 ]

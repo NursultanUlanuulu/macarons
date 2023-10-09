@@ -33,8 +33,6 @@ const Banner = () => {
                     <img src={q} alt="" />
                 </div>
             </div>
-
-
         </div>
     )
 }

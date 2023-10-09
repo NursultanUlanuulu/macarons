@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             {/*  */}
             <div className={style.list}>
-              <div>
+              <div className={style.text}>
                 <h3>Информация</h3>
                 <ul>
                   <li>О компании </li>
@@ -43,7 +43,7 @@ const Footer = () => {
                   <li> Контакты</li>
                 </ul>
               </div>
-              <div>
+              <div className={style.text}>
                 <h3>Каталог</h3>
                 <ul>
                   <li>Каталог десертов</li>
@@ -52,7 +52,7 @@ const Footer = () => {
                   <li>Акции</li>
                 </ul>
               </div>
-              <div>
+              <div className={style.text}>
                 <h3>ДЛЯ БИЗНЕСА</h3>
                 <ul>
                   <li>Корпоративные подарки</li>
@@ -62,7 +62,7 @@ const Footer = () => {
               </div>
             </div>
             {/*  */}
-            <div>
+            <div className={style.text}>
               <div>
                 <h3>+7 (812) 309 82 88</h3>
                 <p>с 9:00 до 21:00</p>
