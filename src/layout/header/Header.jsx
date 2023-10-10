@@ -2,13 +2,46 @@ import React from 'react'
 import style from './Header.module.css'
 import logo from '../../assets/logo.png'
 import { DownOutlined } from '@ant-design/icons'
-import { headerData, headerMenuData, } from '../../utils/constants/constants'
+import { headerData, headerMenuData, headerSlide, } from '../../utils/constants/constants'
 import { Link } from 'react-router-dom'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Autoplay, Pagination,  EffectFade} from 'swiper/modules';
 const Header = () => {
     return (
         <div className={style.header}>
             <header>
+                <Swiper
+                    spaceBetween={30}
+                    centeredSlides={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    effect={'fade'}
+                    modules={[Autoplay, Pagination,EffectFade]}
+                    className="mySwiper"
+                >
+                    {headerSlide.map((item) => (
+                        <SwiperSlide key={item.id}>
+                            <div className={style.slide}>
+                                <div> <img src={item.img} alt="" /></div>
+                                <div>
+                                    <h2>{item.title}</h2>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                    ))}
+                </Swiper>
+
                 <div className={style.back1}>
+
                     <div className={style.header_first}>
                         <div className={style.header_menu}>
                             {headerMenuData.map((item) => (
@@ -47,8 +80,8 @@ const Header = () => {
                             </ul>
                         </div>
                         <div>
-                        <Link to='/'> <img src={logo} alt="" /></Link>
-                           
+                            <Link to='/'> <img src={logo} alt="" /></Link>
+
                         </div>
                         <div className={style.nav}>
                             <ul>

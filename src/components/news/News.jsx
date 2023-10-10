@@ -11,7 +11,6 @@ const News = () => {
     return (
         <div>
             <h1 className={style.title}>Новости</h1>
-
             <div className={style.blocks}>
                 <Swiper
                     slidesPerView={3}

@@ -37,8 +37,11 @@ footer {
 .list {
     display: flex;
 }
-ul li{
+.ul li{
     margin-top: 10px;
+}
+.ul li a{
+    color: #292929;
 }
 .text{
     margin-left: 30px;

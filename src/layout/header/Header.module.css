@@ -1,7 +1,13 @@
 .back1 {
     background-color: #F7EBE5;
 }
-
+.slide{
+    display: flex;
+    justify-content: center;
+    background-color: #D4E9F9;
+    align-items: center;
+    height: 50px;
+}
 .header_first {
     display: flex;
     justify-content: space-evenly;
