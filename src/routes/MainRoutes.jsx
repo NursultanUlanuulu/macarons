@@ -10,7 +10,9 @@ import DesertsCatalog from '../pages/DesertsCatalog'
 import Sale from '../pages/Sale'
 import SaleSecpndPage from '../pages/SaleSecpndPage'
 import About from '../pages/About'
-
+import Delivery from '../pages/Delivery'
+import SvadebnoePred from '../pages/SvadebnoePred'
+import Contacs from '../pages/Contacs'
 export const MainRoutes = () => {
   return (
      <Routes>
@@ -23,6 +25,10 @@ export const MainRoutes = () => {
            <Route path={INITIAL_PATH.sales_week} element={<Sale/>}/>
            <Route path={INITIAL_PATH.sales_week_page_two} element={<SaleSecpndPage/>} />
            <Route path={INITIAL_PATH.o_nas} element={<About/>}/>
+           <Route path={INITIAL_PATH.delivery} element={<Delivery/>}/>
+           <Route path={INITIAL_PATH.svadNabory} element={<SvadebnoePred/>}/>
+           <Route path={INITIAL_PATH.contacts} element={<Contacs/>}/>
+
         </Route>
      </Routes>
   )

@@ -49,7 +49,13 @@ import foot4 from '../../assets/img/supplies/foot4.svg'
 import catalog2 from '../../assets/img/desertsCatalog/catalog2.png'
 import catalog3 from '../../assets/img/desertsCatalog/catalog3.png'
 import catalog4 from '../../assets/img/desertsCatalog/catalog4.png'
-
+///////svadebnye nabory ///////
+import forGuest from '../../assets/img/svadebnyeNabory/forGuest.png'
+import piramida from '../../assets/img/svadebnyeNabory/piramida.png'
+import bigPiramida from '../../assets/img/svadebnyeNabory/bigPiramida.png'
+import makaronName from '../../assets/img/svadebnyeNabory/makaronName.png'
+import naborDevichnik from '../../assets/img/svadebnyeNabory/naborDevichnik.png'
+import nabor9 from '../../assets/img/svadebnyeNabory/nabor9.png'
 ///////about/////////////
 import about from '../../assets/img/about/about.png'
 import about2 from '../../assets/img/about/about2.png'
@@ -69,6 +75,9 @@ export const INITIAL_PATH = {
     sales_week: '/sales_week',
     sales_week_page_two: '/sales_week/page_two',
     o_nas: '/o_nas',
+    delivery: '/delivery',
+    svadNabory:'/predlozhenie-dlya-svadeb',
+    contacts:'/contacts',
 }
 
 ///////header/////////
@@ -103,7 +112,7 @@ export const headerMenuData = [
     {
         id: 2,
         title: 'Доставка и оплата',
-        path: '',
+        path: '/delivery',
     },
     {
         id: 3,
@@ -113,7 +122,7 @@ export const headerMenuData = [
     {
         id: 4,
         title: 'Контакты',
-        path: ''
+        path: '/contacts'
     },
 ]
 export const headerData = [
@@ -665,3 +674,51 @@ export const footerTextData = [
         ]
     },
 ];
+
+
+
+////////////////predlozhenie-dlya-svadeb
+export const naboryDlyaSvadby=[
+    {
+        id:1,
+        img:nabor9,
+        title:'Набор из 9 макарон',
+        description:'С праздничной печатью и пожеланиями для молодожёнов',
+        price:'600 руб'
+    },
+    {
+        id:2,
+        img:forGuest,
+        title:'Для гостей',
+        description:'Подарочный набор из 2 макарон с печатью жениха и невесты в прозрачной упаковке',
+        price:'2200 руб'
+    },
+    {
+        id:3,
+        img:piramida,
+        title:'Пирамидка из макаронс',
+        description:'Прекрасное дополнение праздничного стола  60 макаронс',
+        price:'6600 руб'
+    },
+    {
+        id:4,
+        img:bigPiramida,
+        title:'Большая пирамида (10 этажей) ',
+        description:'Для свадьбы или банкета, 240 макарон по вашему выбору ',
+        price:'14400 руб'
+    },
+    {
+        id:5,
+        img:makaronName,
+        title:'Макаронс с именами гостей',
+        description:'Описание предложения на пару строк или более  ( по вашему выбору)',
+        price:'80 руб'
+    },
+    {
+        id:1,
+        img:naborDevichnik,
+        title:'Набор для девичника',
+        description:'Дерзкий набор для девичника. 30 макаронс  (с именами гостей)',
+        price:'3900 руб'
+    }
+]
