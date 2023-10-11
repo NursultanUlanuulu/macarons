@@ -2,7 +2,7 @@ import React from 'react'
 import style from './Header.module.css'
 import logo from '../../assets/logo.png'
 import { DownOutlined } from '@ant-design/icons'
-import { headerData, headerMenuData, headerSlide, } from '../../utils/constants/constants'
+import { INITIAL_PATH, headerData, headerMenuData, headerSlide, } from '../../utils/constants/constants'
 import { Link } from 'react-router-dom'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -71,7 +71,7 @@ const Header = () => {
                                         <li>ДЕНЬ УЧИТЕЛЯ</li>
                                         <li>ДЕНЬ РОЖДЕНИЯ</li>
                                         <li>МАКАРОНС КЛАСИЧЕСКИЕ</li>
-                                        <li>СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</li>
+                                        <li> <Link to={INITIAL_PATH.svadNabory}> СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</Link></li>
                                         <li>КИНДЕР-БАРЫ</li>
                                         <li>ДЕТСКИЕ ПРАЗДНИКИ</li>
                                     </ul>

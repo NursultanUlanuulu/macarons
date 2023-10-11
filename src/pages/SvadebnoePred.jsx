@@ -13,10 +13,10 @@ const SvadebnoePred = () => {
     <div style={{backgroundColor:'#F6F6F6'}}>
         <div className={styles.block1}>
         <div >
-<img className={styles.cakeImg} src={cake} alt="" />
-<img className={styles.mkr1} src={mkr1} alt="" />
-<img className={styles.mkr2} src={mkr2} alt="" />
-<img className={styles.leaf} src={leaf} alt="" />
+          <img className={styles.cakeImg} src={cake} alt="" />
+          <img className={styles.mkr1} src={mkr1} alt="" />
+          <img className={styles.mkr2} src={mkr2} alt="" />
+          <img className={styles.leaf} src={leaf} alt="" />
         </div>
 
         <div className={styles.textMain}>
@@ -27,7 +27,6 @@ const SvadebnoePred = () => {
            <ul className={styles.ul}>
             <li>Рыба-текст предложения </li>
             <li>
-
 Приятно, граждане, наблюдать, как действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. </li>
            </ul>
 
