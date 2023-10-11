@@ -450,6 +450,7 @@ export const featuresData = [
         img: card4,
         title: 'Свадебные предложения',
         description: 'Нежные пирожные макаронс с разными вкусами для украшения вашего свадебного торжества',
+        path:'/predlozhenie-dlya-svadeb'
     },
     {
         id: 5,
