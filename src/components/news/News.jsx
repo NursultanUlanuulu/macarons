@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 
 const News = () => {
@@ -38,8 +39,8 @@ const News = () => {
                     {newsData.map((item) => (
                         <SwiperSlide key={item.id}>
                             <div className={style.block}>
-                                <div className="img">
-                                    <img src={item.img} alt="" />
+                                <div className={style.img}>
+                                    <img src={item.img} alt=""  width={370} height={300}/>
                                 </div>
                                 <div className={style.discr}>
                                     <div className={style.data}>
@@ -58,7 +59,7 @@ const News = () => {
                 </Swiper>
             </div>
             <div className={style.btn}>
-                <button>Все новости</button>
+                <Link to='/news'>Все новости</Link>
             </div>
         </div>
     )

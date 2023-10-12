@@ -64,14 +64,14 @@ const Header = () => {
                     <div className={style.header_second}>
                         <div className={style.nav}>
                             <ul>
-                                <li className={style.hover}><Link to='/sales_week'>СЛАДКИЕ ДНИ</Link></li>
+                                <Link to={INITIAL_PATH.sales_week}><li className={style.hover}>СЛАДКИЕ ДНИ</li></Link>
                                 <li>ПОДАРОЧНЫЕ НАБОРЫ<DownOutlined />
                                     <ul>
-                                        <li>ВСЕ НАБОРЫ</li>
+                                        <Link to={INITIAL_PATH.podarochnye_nabory}><li>ВСЕ НАБОРЫ </li></Link>
                                         <li>ДЕНЬ УЧИТЕЛЯ</li>
                                         <li>ДЕНЬ РОЖДЕНИЯ</li>
                                         <li>МАКАРОНС КЛАСИЧЕСКИЕ</li>
-                                        <li> <Link to={INITIAL_PATH.svadNabory}> СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</Link></li>
+                                         <Link to={INITIAL_PATH.svadNabory}><li> СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</li></Link>
                                         <li>КИНДЕР-БАРЫ</li>
                                         <li>ДЕТСКИЕ ПРАЗДНИКИ</li>
                                     </ul>
@@ -88,7 +88,7 @@ const Header = () => {
                                 <li className={style.hover}>СОЗДАТЬ ДИЗАЙН</li>
                                 <li>КОМПАНИЯМ <DownOutlined />
                                     <ul>
-                                        <li>ОПТОВЫЕ ПОСТАВКИ</li>
+                                        <Link to={INITIAL_PATH.deserty_dlya_kofejni}><li>ОПТОВЫЕ ПОСТАВКИ</li></Link>
                                         <li>КАРАМЕЛЬ НА ПАЛОЧКЕ ОПТОМ</li>
                                         <li>КОРПОРАТИВНЫЕ ПОДАКИ</li>
                                         <li>ЭЛКЕРЫ ОПТОМ</li>
@@ -98,7 +98,7 @@ const Header = () => {
                                     <ul>
                                         <li>МАКАРОН</li>
                                         <li>ЭЛКЕРЫ</li>
-                                        <li>ПОДАРОЧНЫЕ НАБОРЫ</li>
+                                        <Link to={INITIAL_PATH.podarochnye_nabory}><li>ПОДАРОЧНЫЕ НАБОРЫ</li></Link>
                                         <li>КОМБО-НАБОРЫ</li>
                                         <li>КАРАМЕЛЬ НА ПАЛОЧКЕ</li>
                                         <li>ВАФЕЛЬНЫЕ ТРУБОЧКИ</li>

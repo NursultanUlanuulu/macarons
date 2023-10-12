@@ -42,33 +42,6 @@ const Footer = () => {
                   </ul>
                 </div>
               ))}
-
-              {/* {footerTextData.map((item)=>(
-                <div className={style.text}>
-                    <h3>{item.title}</h3>
-                    <ul className={style.ul}>
-                      <li>{item.about}</li>
-                      <li>{item.ganatee}</li>
-                      <li>{item.pay}</li>
-                      <li>{item.contacts}</li>
-                      <li>{item.confidentiality}</li>
-                      <li>{item.sale}</li>                      
-                    </ul>
-                </div>
-              ))} */}
-              {/* {footerTextData.map((item) => (
-                <div className={style.text}>
-                  <h3>{item.title}</h3>
-                  <ul className={style.ul}>
-                    <li><Link to={item.about.path}>{item.about}</Link></li>
-                    <li>{item.ganatee}</li>
-                    <li>{item.pay}</li>
-                    <li>{item.sale}</li>
-                    <li>{item.contacts}
-                    </li>
-                  </ul>
-                </div>
-              ))} */}
             </div>
             <div className={style.text}>
               <div>

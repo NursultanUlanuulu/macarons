@@ -9,7 +9,6 @@ import holiday2 from '../../assets/holiday2.png'
 import holiday3 from '../../assets/holiday3.png'
 import holiday4 from '../../assets/holiday4.png'
 import holiday5 from '../../assets/holiday5.png'
-import news from '../../assets/news.png'
 import card from '../../assets/card.png'
 import card2 from '../../assets/card2.png'
 import card3 from '../../assets/card3.png'
@@ -65,6 +64,12 @@ import about4 from '../../assets/img/about/about4.png'
 import footer from '../../assets/img/footer/footer.png'
 import footer2 from '../../assets/img/footer/footer2.png'
 import footer3 from '../../assets/img/footer/footer3.png'
+//////news/////////
+import news from '../../assets/img/news/news.png'
+import news2 from '../../assets/img/news/news2.jpg'
+import news3 from '../../assets/img/news/news3.webp'
+import news4 from '../../assets/img/news/news4.webp'
+import news5 from '../../assets/img/news/news5.webp'
 /////////путь////////
 export const INITIAL_PATH = {
     main_page: '/',
@@ -76,8 +81,9 @@ export const INITIAL_PATH = {
     sales_week_page_two: '/sales_week/page_two',
     o_nas: '/o_nas',
     delivery: '/delivery',
-    svadNabory:'/predlozhenie-dlya-svadeb',
-    contacts:'/contacts',
+    svadNabory: '/predlozhenie-dlya-svadeb',
+    contacts: '/contacts',
+    news: '/news',
 }
 
 ///////header/////////
@@ -93,12 +99,12 @@ export const headerSlide = [
         title: 'ОПТОВЫЕ ПОСТАВКИ ОТ ПРОИЗВОДИТЕЛЯ',
     },
     {
-        id:3,
+        id: 3,
         img: slide3,
         title: 'ВСЕГДА СВЕЖЕЕ',
     },
     {
-        id:4,
+        id: 4,
         img: slide4,
         title: 'МИНДАЛЬНАЯ МУКА И НАТУРАЛЬНЫЕ ИНГРЕДИЕНТЫ',
     },
@@ -392,37 +398,37 @@ export const newsData = [
     {
         id: 1,
         img: news,
-        data: '25.02.2023',
-        title: 'Скоро главный праздник весны!',
-        description: 'Девушки любят, когда вкусно, красиво и натурально. Смотрите больше наборов с десертами ручной работы',
+        data: '26.09.2023',
+        title: 'Коллекция подарков ко дню учителя уже в продаже!',
+        description: '5 октября — день Учителя. Удивить своего любимого преподавателя можно с помощью наших аппетитных наборов макарон. Вкуснейшие наборы макарон ко дню Учителя подарят учителю не только эстетическое удовольствие, но и вкусовое. Некоторые варианты подарков:',
     },
     {
         id: 2,
-        img: news,
-        data: '25.02.2023',
-        title: 'Скоро главный праздник весны!',
-        description: 'Девушки любят, когда вкусно, красиво и натурально. Смотрите больше наборов с десертами ручной работы',
+        img: news2,
+        data: '15.09.2023',
+        title: 'Новая коллекция подарков ко дню воспитателя!',
+        description: '27 сентября — день Дошкольного работника. Выразить свою благодарность воспитателям за огромный труд можно с помощью наших потрясающих наборов макарон. Они станут настоящей яркой вспышкой в череде презентов и подарят воспитателю не только эстетическое удовольствие, но и вкусовое. Некоторые варианты подарков:',
     },
     {
         id: 3,
-        img: news,
-        data: '25.02.2023',
+        img: news3,
+        data: '01.03.2023',
         title: 'Скоро главный праздник весны!',
         description: 'Девушки любят, когда вкусно, красиво и натурально. Смотрите больше наборов с десертами ручной работы',
     },
     {
         id: 4,
-        img: news,
-        data: '25.02.2023',
-        title: 'Скоро главный праздник весны!',
-        description: 'Девушки любят, когда вкусно, красиво и натурально. Смотрите больше наборов с десертами ручной работы',
+        img: news4,
+        data: '17.02.2023',
+        title: 'Конкурс на 23 февраля!',
+        description: 'Некоторые варианты подарков:',
     },
     {
         id: 5,
-        img: news,
-        data: '25.02.2023',
-        title: 'Скоро главный праздник весны!',
-        description: 'Девушки любят, когда вкусно, красиво и натурально. Смотрите больше наборов с десертами ручной работы',
+        img: news5,
+        data: '11.02.2023',
+        title: 'Экспресс-конкурс ко дню Святого Валентина',
+        description: 'Подарок уже через 2 дняДень всех влюблённых не за горами. Расскажи о своих чувствах с помощью сладкой валентинки от МакаронШоп Некоторые варианты подарков:',
     },
 ]
 export const featuresData = [
@@ -450,7 +456,7 @@ export const featuresData = [
         img: card4,
         title: 'Свадебные предложения',
         description: 'Нежные пирожные макаронс с разными вкусами для украшения вашего свадебного торжества',
-        path:'/predlozhenie-dlya-svadeb'
+        path: '/predlozhenie-dlya-svadeb'
     },
     {
         id: 5,
@@ -653,8 +659,8 @@ export const footerTextData = [
         items: [
             { text: 'О компании', link: '/o_nas' },
             { text: 'Гарантии вкуса и свежести', link: '/guarantee' },
-            { text: 'Доставка и оплата', link: '/доставка-и-оплата' },
-            { text: 'Контакты', link: '/контакты' },
+            { text: 'Доставка и оплата', link: '/delivery' },
+            { text: 'Контакты', link: '/contacts' },
             { text: 'Политика конфиденциальности', link: '/политика-конфиденциальности' },
         ]
     },
@@ -679,47 +685,47 @@ export const footerTextData = [
 
 
 ////////////////predlozhenie-dlya-svadeb
-export const naboryDlyaSvadby=[
+export const naboryDlyaSvadby = [
     {
-        id:1,
-        img:nabor9,
-        title:'Набор из 9 макарон',
-        description:'С праздничной печатью и пожеланиями для молодожёнов',
-        price:'600 руб'
+        id: 1,
+        img: nabor9,
+        title: 'Набор из 9 макарон',
+        description: 'С праздничной печатью и пожеланиями для молодожёнов',
+        price: '600 руб'
     },
     {
-        id:2,
-        img:forGuest,
-        title:'Для гостей',
-        description:'Подарочный набор из 2 макарон с печатью жениха и невесты в прозрачной упаковке',
-        price:'2200 руб'
+        id: 2,
+        img: forGuest,
+        title: 'Для гостей',
+        description: 'Подарочный набор из 2 макарон с печатью жениха и невесты в прозрачной упаковке',
+        price: '2200 руб'
     },
     {
-        id:3,
-        img:piramida,
-        title:'Пирамидка из макаронс',
-        description:'Прекрасное дополнение праздничного стола  60 макаронс',
-        price:'6600 руб'
+        id: 3,
+        img: piramida,
+        title: 'Пирамидка из макаронс',
+        description: 'Прекрасное дополнение праздничного стола  60 макаронс',
+        price: '6600 руб'
     },
     {
-        id:4,
-        img:bigPiramida,
-        title:'Большая пирамида (10 этажей) ',
-        description:'Для свадьбы или банкета, 240 макарон по вашему выбору ',
-        price:'14400 руб'
+        id: 4,
+        img: bigPiramida,
+        title: 'Большая пирамида (10 этажей) ',
+        description: 'Для свадьбы или банкета, 240 макарон по вашему выбору ',
+        price: '14400 руб'
     },
     {
-        id:5,
-        img:makaronName,
-        title:'Макаронс с именами гостей',
-        description:'Описание предложения на пару строк или более  ( по вашему выбору)',
-        price:'80 руб'
+        id: 5,
+        img: makaronName,
+        title: 'Макаронс с именами гостей',
+        description: 'Описание предложения на пару строк или более  ( по вашему выбору)',
+        price: '80 руб'
     },
     {
-        id:1,
-        img:naborDevichnik,
-        title:'Набор для девичника',
-        description:'Дерзкий набор для девичника. 30 макаронс  (с именами гостей)',
-        price:'3900 руб'
+        id: 1,
+        img: naborDevichnik,
+        title: 'Набор для девичника',
+        description: 'Дерзкий набор для девичника. 30 макаронс  (с именами гостей)',
+        price: '3900 руб'
     }
 ]

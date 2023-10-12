@@ -13,6 +13,7 @@ import About from '../pages/About'
 import Delivery from '../pages/Delivery'
 import SvadebnoePred from '../pages/SvadebnoePred'
 import Contacs from '../pages/Contacs'
+import News from '../pages/News'
 export const MainRoutes = () => {
   return (
      <Routes>
@@ -28,7 +29,7 @@ export const MainRoutes = () => {
            <Route path={INITIAL_PATH.delivery} element={<Delivery/>}/>
            <Route path={INITIAL_PATH.svadNabory} element={<SvadebnoePred/>}/>
            <Route path={INITIAL_PATH.contacts} element={<Contacs/>}/>
-
+            <Route path={INITIAL_PATH.news} element={<News/>}/>
         </Route>
      </Routes>
   )
