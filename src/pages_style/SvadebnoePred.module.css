@@ -53,11 +53,9 @@
     margin-top: 45px;
     width: 584px;
     margin-left: -50px;
-    /* margin-left: -100px; */
 }
 /* block2 */
 .cards{
-    
     margin-top: 42px;
     display: flex;
     justify-content: space-between;

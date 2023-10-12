@@ -7,7 +7,6 @@ const App = () => {
   <div className={style.app}>
   <MainRoutes />
   </div>
-
   )
 }
 
