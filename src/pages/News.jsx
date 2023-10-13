@@ -6,8 +6,8 @@ const News = () => {
         <>
             <h1 className={style.title}>Новости</h1>
             <div className={style.blocks}>
-                {newsData.map((item) => (
-                    <div className={style.block}>
+                {newsData.map((item,id) => (
+                    <div key={id} className={style.block}>
                         <div className="img">
                             <img src={item.img} width={370} />
                         </div>

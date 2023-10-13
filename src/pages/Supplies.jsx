@@ -29,8 +29,8 @@ const Supplies = () => {
             <div>
                 <h2 className={style.title}>Пирожные для вашей кофейни</h2>
                 <div className={style.flex}>
-                    {suplplesData.map((item) => (
-                        <div className={style.card}>
+                    {suplplesData.map((item,id) => (
+                        <div key={id} className={style.card}>
                             <img src={item.img} width={276} height={302} />
                             <h4 className={style.option}>{item.title}</h4>
                             <p className={style.dr}>{item.description}</p>

@@ -8,8 +8,8 @@ const Guarantee = () => {
         <div>
           <p className={style.dscr}>При изготовлении пирожных макаронс и других десертов мы используем только натуральные ингредиенты и красители, готовя наши изделия по оригинальной рецептуре лучших мировых кондитеров. Мы печём заказы в день отгрузки, поэтому вы всегда можете быть уверены в их свежести. Мы не используем консерванты, разрыхлители или усилители вкуса.</p>
           <div className={style.guarantee}>
-    {guaranteeData.map((item)=>(
-            <div >
+    {guaranteeData.map((item ,id)=>(
+            <div key={id} >
             <img src={item.img} alt="" width={276}/>
             <p className={style.option}>{item.percent}</p>
             <p className={style.dr}>{item.title}</p>

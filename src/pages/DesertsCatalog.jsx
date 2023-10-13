@@ -21,8 +21,8 @@ const DesertsCatalog = () => {
                     </div>
                 </div>
                 <div className={style.allImg}>
-                    {DesertsCatalogData.map((item) => (
-                        <div className={`${style.card} ${style[`card${item.id}`]}`}>
+                    {DesertsCatalogData.map((item,id) => (
+                        <div key={id} className={`${style.card} ${style[`card${item.id}`]}`}>
                             <img src={item.img} width={231} height={201} />
                             <h3>{item.title}</h3>
                         </div>

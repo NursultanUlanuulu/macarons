@@ -16,6 +16,8 @@ import Contacs from '../pages/Contacs'
 import News from '../pages/News'
 import ClassicMacarons from '../pages/ClassicMacarons'
 import HappyBirthday from '../pages/HappyBirthday'
+import DenUchitelya from '../pages/DenUchitelya'
+import DlyaDetey from '../pages/DlyaDetey'
 export const MainRoutes = () => {
   return (
      <Routes>
@@ -34,6 +36,8 @@ export const MainRoutes = () => {
            <Route path={INITIAL_PATH.news} element={<News/>}/>
            <Route path={INITIAL_PATH.classicMacarons} element={<ClassicMacarons/>}/> 
            <Route path={INITIAL_PATH.happyBirthday} element={<HappyBirthday/>}/>
+           <Route path={INITIAL_PATH.denUchitelya} element={<DenUchitelya/>}/>
+           <Route path={INITIAL_PATH.dlyaDetey} element={<DlyaDetey/>}/>
         </Route>
      </Routes>
   )

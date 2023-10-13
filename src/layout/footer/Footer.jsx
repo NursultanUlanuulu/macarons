@@ -16,8 +16,8 @@ const Footer = () => {
           <div className={style.footer_flex}>
             <div>
               <div className={style.icon_flex}>
-                {footerIconData.map((item) => (
-                  <div key={item.id}>
+                {footerIconData.map((item,id) => (
+                  <div key={id}>
                     <img src={item.img} alt="" />
                     <p>{item.title}</p>
                   </div>
@@ -30,8 +30,8 @@ const Footer = () => {
             </div>
             {/*  */}
             <div className={style.list}>
-              {footerTextData.map((item) => (
-                <div className={style.text}>
+              {footerTextData.map((item,id) => (
+                <div key={id} className={style.text}>
                   <h3>{item.title}</h3>
                   <ul className={style.ul}>
                     {item.items.map((subItem) => (

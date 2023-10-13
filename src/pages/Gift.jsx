@@ -7,8 +7,8 @@ const Gift = () => {
         <div>
             <h1 className={style.title}>Подарочные наборы</h1>
             <div className={style.cards}>
-                {popularData.map((item) => (
-                    <div className={style.card} key={item.id}>
+                {popularData.map((item,id) => (
+                    <div  className={style.card} key={id}>
                         <div className="">
                             <img src={item.img} alt="" />
                         </div>
