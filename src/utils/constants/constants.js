@@ -70,6 +70,36 @@ import news2 from '../../assets/img/news/news2.jpg'
 import news3 from '../../assets/img/news/news3.webp'
 import news4 from '../../assets/img/news/news4.webp'
 import news5 from '../../assets/img/news/news5.webp'
+/////classic macarons///////
+
+import classic1 from '../../assets/img/classicMacarons/classic1.png'
+import classic2 from '../../assets/img/classicMacarons/classic2.png'
+import classic3 from '../../assets/img/classicMacarons/classic3.png'
+import classic4 from '../../assets/img/classicMacarons/classic4.png'
+import classic5 from '../../assets/img/classicMacarons/classic5.png'
+import classic6 from '../../assets/img/classicMacarons/classic6.png'
+import classic7 from '../../assets/img/classicMacarons/classic7.png'
+import classic8 from '../../assets/img/classicMacarons/classic8.png'
+import classic9 from '../../assets/img/classicMacarons/classic9.png'
+import classic10 from '../../assets/img/classicMacarons/classic10.png'
+import classic11 from '../../assets/img/classicMacarons/classic11.png'
+import classic12 from '../../assets/img/classicMacarons/classic12.png'
+import classic13 from '../../assets/img/classicMacarons/classic13.png'
+///////// happy birthday///////
+import happyBirthday1 from '../../assets/img/happyBirthday/podarki-na-den-rojhdeniya-1.png'
+import happyBirthday2 from '../../assets/img/happyBirthday/podarki-na-den-rojhdeniya-2.png'
+import happyBirthday3 from '../../assets/img/happyBirthday/podarki-na-den-rojdeniya-3.png'
+import happyBirthday4 from '../../assets/img/happyBirthday/podarok-na-den-rojdeniya-4.png'
+
+import happyBirthday6 from '../../assets/img/happyBirthday/podarki-na-den-rojdeniya-6.png'
+import happyBirthday7 from '../../assets/img/happyBirthday/podarki-na-den-rojdeniya-7.png'
+import happyBirthday8 from '../../assets/img/happyBirthday/podarki-na-den-rojdeniya-8.png'
+import happyBirthday9 from '../../assets/img/happyBirthday/podarki-na-den-rojdeniya-9.png'
+import happyBirthday11 from '../../assets/img/happyBirthday/podarki-na-den-rojdeniya-11.png'
+import happyBirthday12 from '../../assets/img/happyBirthday/podarki-na-den-rojdeniya-12.png'
+import happyBirthday13 from '../../assets/img/happyBirthday/podarki-na-den-rojdeniya-13.jpeg'
+import happyBirthday14 from '../../assets/img/happyBirthday/podarki-na-den-rojdeniya-14.1.jpeg'
+import happyBirthday15 from '../../assets/img/happyBirthday/podarok_na_den_rojdeniya_15.png'
 /////////путь////////
 export const INITIAL_PATH = {
     main_page: '/',
@@ -84,6 +114,8 @@ export const INITIAL_PATH = {
     svadNabory: '/predlozhenie-dlya-svadeb',
     contacts: '/contacts',
     news: '/news',
+    classicMacarons:'/klassicheskie',
+    happyBirthday:'/gotovye-nabory/den-rozhdeniya'
 }
 
 ///////header/////////
@@ -728,4 +760,219 @@ export const naboryDlyaSvadby = [
         description: 'Дерзкий набор для девичника. 30 макаронс  (с именами гостей)',
         price: '3900 руб'
     }
+]
+
+export const classicMacaronsData=[
+    {
+        id: 1,
+        img:classic1,
+        title:'Набор “Наслаждение” ',
+        description:' 24 штуки в коробке. Вкусы ассорти',
+        price: 1190,
+
+    },
+    {
+        id: 2,
+        img:classic2,
+        title:'Набор с эклерами “Услада” ',
+        description:'10макаронc+3 эклера в коробке. Вкусы ассорти',
+        price: 890,
+
+    },
+    {
+        id: 3,
+        img:classic3,
+        title:'Набор с эклерами "Изюминка"',
+        description:'10макаронc+3 эклера в коробке. Вкусы ассорти',
+        price: 890,
+
+    },
+    {
+        id: 4,
+        img:classic4,
+        title:'Набор “Нежность” ',
+        description:' 24 макаронс в наборе. Вкусы ассорти',
+        price: 1190,
+
+    },
+    {
+        id: 5,
+        img:classic5,
+        title:'Набор с эклерами “Конфетти”',
+        description:'10макаронc+3 эклера в коробке. Вкусы ассорти',
+        price: 890,
+
+    },
+    {
+        id: 6,
+        img:classic6,
+        title:'Набор “Летний отпуск” ',
+        description:' 24 штуки в коробке. Вкусы ассорти',
+        price: 999,
+
+    },
+    {
+        id: 7,
+        img:classic7,
+        title:'Набор “Необитаемый остров”',
+        description:' 24 штуки в коробке. Вкусы ассорти',
+        price: 1190,
+
+    },
+    {
+        id: 8,
+        img:classic8,
+        title:'Набор “Лето” ',
+        description:' 24 штуки в коробке. Вкусы ассорти',
+        price: 890,
+
+    },
+    {
+        id: 9,
+        img:classic9,
+        title:'Набор “Летний” ',
+        description:' 24 штуки в коробке. Вкусы ассорти',
+        price: 1190,
+
+    },
+    {
+        id: 10,
+        img:classic10,
+        title:'Набор “Brown” ',
+        description:' 24 штуки в коробке. Вкусы ассорти',
+        price: 960,
+
+    },
+    {
+        id: 11,
+        img:classic11,
+        title:'Набор “Превосходный” ',
+        description:' 24 штуки в коробке. Вкусы ассорти',
+        price: 1190,
+
+    },
+    {
+        id: 12,
+        img:classic12,
+        title:'Набор “Весенний” ',
+        description:' 24 штуки в коробке. Вкусы ассорти',
+        price: 960,
+
+    },
+    {
+        id: 13,
+        img:classic13,
+        title:'Набор “Вдохновение” ',
+        description:' 24 штуки в коробке. Вкусы ассорти',
+        price: 400,
+
+    },
+    
+]
+export const happyBirthdayData=[
+    {
+        id:1,
+        img:happyBirthday1,
+        title:'Подарок ко дню рождения “Хеппи Бёздей”',
+        description:'20 макаронс в коробке. Вкусы ассорти',
+        price:1190
+    },
+    {
+        id:2,
+        img:happyBirthday2,
+        title:'Подарок на день рождения “Не 18”',
+        description:'3 макаронс + 4 эклера в наборе. Вкусы ассорти',
+        price:1090
+    },
+    {
+        id:3,
+        img:happyBirthday3,
+        title:'Подарочный набор “Ты мой космос”',
+        description:'22 макаронс в коробке. Вкусы ассорти',
+        price:2900
+    },
+    {
+        id:4,
+        img:happyBirthday4,
+        title:'Подарочный набор “Sweet”',
+        description:'20 макаронс в коробке. Вкусы ассорти',
+        price:1190
+    },
+    {
+        id:5,
+        img:classic1,
+        title:'Набор “Наслаждение”',
+        description:'24 штуки в коробке. Вкусы ассорти',
+        price:1190
+    },
+    {
+        id:6,
+        img:happyBirthday6,
+        title:'Набор с эклерами “Услада”',
+        description:'10макаронc+3эклера в коробке. Вкусы ассорти',
+        price:890
+    },
+    {
+        id:7,
+        img:happyBirthday7,
+        title:'Набор “Давай состаримся вместе”',
+        description:'222 штуки в коробке. Вкусы ассорти',
+        price:2900
+    },
+    {
+        id:8,
+        img:happyBirthday8,
+        title:'Подарочный набор “Панда Love”',
+        description:'12 макаронс в коробке. Вкусы ассорти',
+        price:1190
+    },
+    {
+        id:9,
+        img:happyBirthday9,
+        title:' Подарочный набор Винный набор ',
+        description:'9 макаронс в коробке. Вкусы ассорти',
+        price:890
+    },
+    {
+        id:10,
+        img:classic3,
+        title:'Набор с эклерами “Изюминка” ',
+        description:'10макаронc+3 эклера в коробке. Вкусы ассорти',
+        price:890
+    },
+    {
+        id:11,
+        img:happyBirthday11,
+        title:'Подарочный набор “Давай состаримся вместе” ',
+        description:'12 макаронс в коробке. Вкусы ассорти',
+        price:1190
+    },
+    {
+        id:12,
+        img:happyBirthday12,
+        title:'Подарочный набор “Сладкоежка”',
+        description:'9 макаронс в коробке. Вкусы ассорти',
+        price:890
+    },
+    {
+        id:13,
+        img:happyBirthday13,
+        title:'Подарки для любимых “Love is”',
+        description:'22 макаронс в коробке. Вкусы ассорти',
+        price:2900
+    },
+    {
+        id:14,
+        img:happyBirthday14,
+        title:'Подарочный набор кейк-попсов',
+        description:'16 штук в коробке, 8 – розовых, 8 – жёлтых',
+        price:960
+    },
+    {
+        id:15,
+        img:happyBirthday15,
+        title:'Подарочный набор “Джентльмен”',
+        description:'набор на день рождения “Джентльмен”',
+        price:1190
+    },
 ]

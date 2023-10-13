@@ -4,7 +4,7 @@ import { newsData } from '../utils/constants/constants'
 const News = () => {
     return (
         <>
-            <h1 className={style.title}>Нововсти</h1>
+            <h1 className={style.title}>Новости</h1>
             <div className={style.blocks}>
                 {newsData.map((item) => (
                     <div className={style.block}>

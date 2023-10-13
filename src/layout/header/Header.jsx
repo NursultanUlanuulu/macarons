@@ -69,10 +69,11 @@ const Header = () => {
                                     <ul>
                                         <Link to={INITIAL_PATH.podarochnye_nabory}><li>ВСЕ НАБОРЫ </li></Link>
                                         <li>ДЕНЬ УЧИТЕЛЯ</li>
-                                        <li>ДЕНЬ РОЖДЕНИЯ</li>
-                                        <li>МАКАРОНС КЛАСИЧЕСКИЕ</li>
+                                        <Link to={INITIAL_PATH.happyBirthday} ><li>ДЕНЬ РОЖДЕНИЯ</li></Link>
+                                        <Link to={INITIAL_PATH.classicMacarons}> <li>МАКАРОНС КЛАСИЧЕСКИЕ</li></Link>
+                                       
                                          <Link to={INITIAL_PATH.svadNabory}><li> СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</li></Link>
-                                        <li>КИНДЕР-БАРЫ</li>
+                                        <li>КЕНДИ-БАРЫ</li>
                                         <li>ДЕТСКИЕ ПРАЗДНИКИ</li>
                                     </ul>
                                 </li>
