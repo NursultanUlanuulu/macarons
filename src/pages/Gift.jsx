@@ -1,7 +1,7 @@
-import React from 'react'
-import { popularData } from '../utils/constants/constants'
-import { ShoppingOutlined } from '@ant-design/icons'
-import style from '../pages_style/Gift.module.css'
+import React from "react";
+import { popularData } from "../utils/constants/constants";
+import { ShoppingOutlined } from "@ant-design/icons";
+import style from "../pages_style/Gift.module.css";
 const Gift = () => {
     return (
         <div>
@@ -17,9 +17,9 @@ const Gift = () => {
                             <p className={style.trans}>{item.description}</p>
                         </div>
                         <div className={style.bottom}>
-                            <h4 className={style.price}> {item.price} руб</h4>
+                            <h4 className={style.price}>{item.price} руб</h4>
                             <div className={style.cart}>
-                                <p><ShoppingOutlined /> </p>
+                                <p><ShoppingOutlined /></p>
                                 <p >корзину</p>
                             </div>
                         </div>
@@ -29,5 +29,4 @@ const Gift = () => {
         </div>
     )
 }
-
 export default Gift

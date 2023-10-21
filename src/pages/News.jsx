@@ -1,13 +1,13 @@
-import React from 'react'
-import style from '../pages_style/News.module.css'
-import { newsData } from '../utils/constants/constants'
+import React from "react";
+import style from "../pages_style/News.module.css";
+import { newsData } from "../utils/constants/constants";
 const News = () => {
     return (
         <>
-            <h1 className={style.title}>Новости</h1>
+            <h1 className={style.title}>Нововсти</h1>
             <div className={style.blocks}>
-                {newsData.map((item,id) => (
-                    <div key={id} className={style.block}>
+                {newsData.map((item) => (
+                    <div className={style.block}>
                         <div className="img">
                             <img src={item.img} width={370} />
                         </div>
@@ -30,4 +30,4 @@ const News = () => {
     )
 }
 
-export default News
+export default News;

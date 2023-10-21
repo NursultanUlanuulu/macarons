@@ -1,94 +1,91 @@
 .box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
 .text {
-    text-align: center;
-    width: 700px;
+  text-align: center;
+  width: 700px;
 }
 
 .text_title {
-    max-width: 630px;
+  max-width: 630px;
 }
 
 .sell {
-    margin: 20px 0;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: Montserrat;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Montserrat;
 }
 
 .sell a {
-    color: #4e9dd3;
+  color: #4e9dd3;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .title {
-    text-align: center;
-    margin: 30px 0 30px;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-weight: 600;
-
+  text-align: center;
+  margin: 30px 0 30px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
 }
 .titl {
-    text-align: center;
-    margin: 100px 0 100px;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-weight: 600;
+  text-align: center;
+  margin: 100px 0 100px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .card {
-    width: 290px;
-    height: 400px;
-    margin-bottom: 20px;
+  width: 290px;
+  height: 400px;
+  margin-bottom: 20px;
 }
 
 .option {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .dr {
-    font-family: Montserrat;
-    font-size: 13px;
-    font-weight: 400;  
-    text-align: center;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .dscr {
-    font-family: Montserrat;
-    font-weight: 300;
+  font-family: Montserrat;
+  font-weight: 300;
 }
 
 .btn {
-    margin-top: 30px;
-    min-width: 230px;
-    padding: 18px 15px;
-    color: var(--color-text-main);
-    border: 1px solid #4e9dd3;
-    background: transparent;
+  margin-top: 30px;
+  min-width: 230px;
+  padding: 18px 15px;
+  color: var(--color-text-main);
+  border: 1px solid #4e9dd3;
+  background: transparent;
 }
 .btn:hover {
-    color: white;
-    background: #4e9dd3;
+  color: white;
+  background: #4e9dd3;
 }
-.food{
-    display:flex;
-    justify-content: space-between;
+.food {
+  display: flex;
+  justify-content: space-between;
 }
-.card{
-    width: 25%;
-    height: 100%;
-    text-align: center;
+.card {
+  width: 25%;
+  height: 100%;
+  text-align: center;
 }
-

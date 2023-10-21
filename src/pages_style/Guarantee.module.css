@@ -1,29 +1,28 @@
 .guarantees {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .title {
-    text-align: center;
-    margin: 80px 0 34px;
-
+  text-align: center;
+  margin: 80px 0 34px;
 }
 
 .dscr {
-    text-align: center;
-    line-height: 22px;
-    margin-bottom: 46px;
+  text-align: center;
+  line-height: 22px;
+  margin-bottom: 46px;
 }
 
 .guarantee {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .option {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .dr {
-    text-align: center;
+  text-align: center;
 }

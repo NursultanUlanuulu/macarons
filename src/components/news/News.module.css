@@ -1,63 +1,62 @@
 .title {
-    text-align: center;
-    margin-top: 85px;
+  text-align: center;
+  margin-top: 85px;
 }
 
 .blocks {
-    margin-top: 40px;
-    display: flex;
-
+  margin-top: 40px;
+  display: flex;
 }
 
 .block {
-    width: 370px;
-    border: rgba(0, 1, 0, 1);
-    background-color: #FFFFFF;
-    margin-bottom: 50px;
+  width: 370px;
+  border: rgba(0, 1, 0, 1);
+  background-color: #ffffff;
+  margin-bottom: 50px;
 }
 
 .discr {
-    padding: 20px 0 0 20px;
+  padding: 20px 0 0 20px;
 }
 
 .pr {
-    padding: 7px 0;
+  padding: 7px 0;
 }
 
 .pr h3 {
-    padding: 7px 0;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 600;
+  padding: 7px 0;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .dscr p {
-    color: #292929;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: left;
+  color: #292929;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .btn {
-    text-align: center;
-    margin: 35px 0 85px;
+  text-align: center;
+  margin: 35px 0 85px;
 }
 
 .btn a {
-    border: 1px solid #4E9DD3;
-    padding: 18px 50px;
-    color: black;
-    background-color: white;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 17px;
-    text-align: center;
+  border: 1px solid #4e9dd3;
+  padding: 18px 50px;
+  color: black;
+  background-color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: center;
 }
 .btn a:hover {
-    color: rgb(255, 255, 255);
-    background-color: #4E9DD3;
+  color: rgb(255, 255, 255);
+  background-color: #4e9dd3;
 }

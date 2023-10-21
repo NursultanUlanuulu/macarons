@@ -1,48 +1,48 @@
 footer {
-    background: #EBEDEE;
+  background: #ebedee;
 }
 
 .footer {
-    height: 318px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1200px;
-    margin: 0 auto;
+  height: 318px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .footer_flex {
-    display: flex;
+  display: flex;
 }
 
 .icon_flex {
-    display: flex;
+  display: flex;
 }
 
 .icon_flex p {
-    width: 140px;
-    margin-bottom: 48px;
+  width: 140px;
+  margin-bottom: 48px;
 }
 
 .icon_flex img {
-    margin: 0 0 10px 30px;
+  margin: 0 0 10px 30px;
 }
 
 .adres {
-    width: 370px;
-    color: #292929;
-    font-size: 12px;
+  width: 370px;
+  color: #292929;
+  font-size: 12px;
 }
 
 .list {
-    display: flex;
+  display: flex;
 }
-.ul li{
-    margin-top: 10px;
+.ul li {
+  margin-top: 10px;
 }
-.ul li a{
-    color: #292929;
+.ul li a {
+  color: #292929;
 }
-.text{
-    margin-left: 30px;
+.text {
+  margin-left: 30px;
 }

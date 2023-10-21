@@ -1,44 +1,51 @@
-import React from 'react'
-import style from './Header.module.css'
-import logo from '../../assets/logo.png'
-import { DownOutlined } from '@ant-design/icons'
-import { INITIAL_PATH, headerData, headerMenuData, headerSlide, } from '../../utils/constants/constants'
-import { Link } from 'react-router-dom'
+import React from "react";
+import style from "./Header.module.css";
+import logo from "../../assets/logo.png";
+import { DownOutlined } from "@ant-design/icons";
+import {
+  INITIAL_PATH,
+  headerData,
+  headerMenuData,
+  headerSlide,
+} from "../../utils/constants/constants";
+import { Link } from "react-router-dom";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import { Autoplay, Pagination,  EffectFade} from 'swiper/modules';
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 const Header = () => {
-    return (
-        <div className={style.header}>
-            <header>
-                <Swiper
-                    spaceBetween={30}
-                    centeredSlides={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
-                    effect={'fade'}
-                    modules={[Autoplay, Pagination,EffectFade]}
-                    className="mySwiper"
-                >
-                    {headerSlide.map((item) => (
-                        <SwiperSlide key={item.id}>
-                            <div className={style.slide}>
-                                <div> <img src={item.img} alt="" /></div>
-                                <div>
-                                    <h2>{item.title}</h2>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-                    ))}
-                </Swiper>
+  return (
+    <div className={style.header}>
+      <header>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          effect={"fade"}
+          modules={[Autoplay, Pagination, EffectFade]}
+          className="mySwiper"
+        >
+          {headerSlide.map((item) => (
+            <SwiperSlide key={item.id}>
+              <div className={style.slide}>
+                <div>
+                  {" "}
+                  <img src={item.img} alt="" />
+                </div>
+                <div>
+                  <h2>{item.title}</h2>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
 
                 <div className={style.back1}>
 
@@ -68,13 +75,12 @@ const Header = () => {
                                 <li>ПОДАРОЧНЫЕ НАБОРЫ<DownOutlined />
                                     <ul>
                                         <Link to={INITIAL_PATH.podarochnye_nabory}><li>ВСЕ НАБОРЫ </li></Link>
-                                        <Link to={INITIAL_PATH.denUchitelya}><li>ДЕНЬ УЧИТЕЛЯ</li></Link>
-                                        <Link to={INITIAL_PATH.happyBirthday} ><li>ДЕНЬ РОЖДЕНИЯ</li></Link>
-                                        <Link to={INITIAL_PATH.classicMacarons}> <li>МАКАРОНС КЛАСИЧЕСКИЕ</li></Link>
-                                       
+                                        <li>ДЕНЬ УЧИТЕЛЯ</li>
+                                        <li>ДЕНЬ РОЖДЕНИЯ</li>
+                                        <li>МАКАРОНС КЛАСИЧЕСКИЕ</li>
                                          <Link to={INITIAL_PATH.svadNabory}><li> СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</li></Link>
-                                        <li>КЕНДИ-БАРЫ</li>
-                                        <Link to={INITIAL_PATH.dlyaDetey}><li>ДЕТСКИЕ ПРАЗДНИКИ</li></Link>
+                                        <li>КИНДЕР-БАРЫ</li>
+                                        <li>ДЕТСКИЕ ПРАЗДНИКИ</li>
                                     </ul>
                                 </li>
                                 <li className={style.hover}>СОБРАТЬ НАБОР</li>
@@ -118,4 +124,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;
