@@ -17,9 +17,9 @@ const Gift = () => {
                             <p className={style.trans}>{item.description}</p>
                         </div>
                         <div className={style.bottom}>
-                            <h4 className={style.price}>{item.price} руб</h4>
+                            <h4 className={style.price}> {item.price} руб</h4>
                             <div className={style.cart}>
-                                <p><ShoppingOutlined /></p>
+                                <p><ShoppingOutlined /> </p>
                                 <p >корзину</p>
                             </div>
                         </div>
