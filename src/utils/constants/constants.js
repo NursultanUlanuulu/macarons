@@ -112,7 +112,7 @@ import  denUchitelya9 from '../../assets/img/denUchitelya/podarok-ko-dnyu-uchite
 import  denUchitelya10 from '../../assets/img/denUchitelya/podarok-ko-dnyu-uchitelya-10.png'
 import  denUchitelya11 from '../../assets/img/denUchitelya/podarok-ko-dnyu-uchitelya-11.png'
 import  denUchitelya12 from '../../assets/img/denUchitelya/podarok-ko-dnyu-uchitelya-12.png'
-import  d from '../../assets/img/denUchitelya/podarok-ko-dnyu-uchitelya-12.png'
+// import  d from '../../assets/img/denUchitelya/podarok-ko-dnyu-uchitelya-12.png'
 
                       //////////////dlya detey/////////
 import dlyaDetey5 from  '../../assets/img/dlyaDetey/dlya-detey-5.png'
@@ -125,28 +125,41 @@ import dlyaDetey11 from  '../../assets/img/dlyaDetey/dlya-detey-11.png'
 import dlyaDetey12 from  '../../assets/img/dlyaDetey/dlya-detey-12.png'
 import dlyaDetey13 from  '../../assets/img/dlyaDetey/dlya-detey-13.png'
 
+                       //////////////eklery/////////
+import eklery_1 from '../../assets/img/eklery/eklery_1.png'
+import eklery_2 from '../../assets/img/eklery/eklery_2.png'
+import eklery_3 from '../../assets/img/eklery/eklery_3.png'
+import eklery_4 from '../../assets/img/eklery/eklery_4.png'
+import eklery_5 from '../../assets/img/eklery/eklery_5.png'
+import eklery_6 from '../../assets/img/eklery/eklery_6.png'
+import eklery_7 from '../../assets/img/eklery/eklery_7.png'
+import eklery_8 from '../../assets/img/eklery/eklery_8.png'
+import eklery_9 from '../../assets/img/eklery/eklery_9.png'
+import eklery_10 from '../../assets/img/eklery/eklery_10.png'
+import eklery_11 from '../../assets/img/eklery/eklery_11.png'
+import eklery_12 from '../../assets/img/eklery/eklery_12.png'
+
+               //////////////KARAMEL NA PALOCHKE/////////
 
 /////////путь////////
 export const INITIAL_PATH = {
-  main_page: "/",
-  guarantee: "/guarantee",
-  podarochnye_nabory: "/podarochnye_nabory",
-  deserty_dlya_kofejni: "/deserty_dlya_kofejni",
-  catalog_desertov: "/catalog_desertov",
-  sales_week: "/sales_week",
-  sales_week_page_two: "/sales_week/page_two",
-  o_nas: "/o_nas",
-  delivery: "/delivery",
-  svadNabory: "/predlozhenie-dlya-svadeb",
-  contacts: "/contacts",
-  news: "/news",
-  classicMacarons: "/klassicheskie",
-  happyBirthday: "/gotovye-nabory/den-rozhdeniya",
-  denUchitelya: "/den-uchitelya",
-  dlyaDetey: "/dlya-detey",
-  sobrat_nabor: "/sobrat-nabor",
-  print: "/print",
-};
+    main_page: '/',
+    guarantee: '/guarantee',
+    podarochnye_nabory: '/podarochnye_nabory',
+    deserty_dlya_kofejni: '/deserty_dlya_kofejni',
+    catalog_desertov: '/catalog_desertov',
+    sales_week: '/sales_week',
+    sales_week_page_two: '/sales_week/page_two',
+    o_nas: '/o_nas',
+    delivery: '/delivery',
+    svadNabory: '/predlozhenie-dlya-svadeb',
+    contacts: '/contacts',
+    news: '/news',
+    classicMacarons:'/klassicheskie',
+    happyBirthday:'/gotovye-nabory/den-rozhdeniya',
+    denUchitelya:'/den-uchitelya',
+    dlyaDetey:'/dlya-detey',
+}
 
 ///////header/////////
 export const headerSlide = [
@@ -1191,3 +1204,104 @@ export const dlyaDetey=[
 
   
 ]
+
+
+export const ekleryData=[
+    {
+        id:1,
+        title:' Эклер со смородиной',
+        description:'Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки ',
+        img: eklery_1 ,
+        price: 1960
+
+    },
+    {
+        id:2,
+        title:'Эклер со смородиной ',
+        description:' Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки',
+        img: eklery_2 ,
+        price: 1745
+
+    },
+    {
+        id:3,
+        title:' Эклер со смородиной',
+        description:' Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки',
+        img: eklery_3 ,
+        price: 1345
+
+    },
+    {
+        id:4,
+        title:' Эклер со смородиной',
+        description:' Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки',
+        img: eklery_4 ,
+        price: 1265
+
+    },
+    {
+        id:5,
+        title:' Эклер со смородиной',
+        description:' Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки',
+        img: eklery_5 ,
+        price: 1900
+
+    },
+    {
+        id:6,
+        title:' Эклер со смородиной',
+        description:' Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки',
+        img: eklery_6 ,
+        price: 1100
+
+    },
+    {
+        id:7,
+        title:' Эклер со смородиной',
+        description:'Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки ',
+        img: eklery_7 ,
+        price: 1000
+
+    },
+    {
+        id:8,
+        title:' Эклер со смородиной',
+        description:' Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки',
+        img: eklery_8 ,
+        price: 1
+
+    },
+    {
+        id:9,
+        title:' Эклер со смородиной',
+        description:' Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки',
+        img: eklery_9 ,
+        price: 890
+
+    },
+    {
+        id:10,
+        title:' Эклер со смородиной',
+        description:' Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки',
+        img: eklery_10 ,
+        price: 960
+
+    },
+    {
+        id:11,
+        title:' Эклер со смородиной',
+        description:'Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки ',
+        img: eklery_11 ,
+        price: 670
+
+    },
+    {
+        id:12,
+        title:' Эклер со смородиной',
+        description:'Воздушный малиновый крем с ароматной посыпкой из кокосовой стружки ',
+        img: eklery_12 ,
+        price: 1040
+
+    },
+]
+

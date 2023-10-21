@@ -112,15 +112,20 @@
     padding-top: 75px;
 
 } */
-.text h2 {
-  font-family: Montserrat;
-  font-size: 30px;
-  font-weight: 600;
+.text h2{
+   
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+   
+
 }
-.text h5 {
-  font-family: Proxima Nova;
-  font-size: 18px;
-  font-weight: 400;
+.text h5{
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-weight: 400;
+ 
+
 }
 .text {
   position: relative;
@@ -128,6 +133,7 @@
   line-height: 34px;
   padding-left: 700px;
 }
+
 
 /* 4-blokc */
 .ansQues {
