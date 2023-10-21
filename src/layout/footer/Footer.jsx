@@ -1,8 +1,5 @@
 import React from "react";
 import style from "./Footer.module.css";
-// import footer from '../../assets/footer.png'
-// import footer2 from '../../assets/footer2.png'
-// import footer3 from '../../assets/footer3.png'
 import ico from "../../assets/ico.png";
 import ico2 from "../../assets/ico2.png";
 import ico3 from "../../assets/ico3.png";
@@ -19,8 +16,8 @@ const Footer = () => {
           <div className={style.footer_flex}>
             <div>
               <div className={style.icon_flex}>
-                {footerIconData.map((item) => (
-                  <div key={item.id}>
+                {footerIconData.map((item, id) => (
+                  <div key={id}>
                     <img src={item.img} alt="" />
                     <p>{item.title}</p>
                   </div>

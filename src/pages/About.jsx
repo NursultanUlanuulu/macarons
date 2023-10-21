@@ -19,7 +19,7 @@ const About = () => {
       </div>
       <div className={style.flex}>
         {aboutData.map((item) => (
-          <div className={style.card_img} key={item.id}>
+          <div className={style.card_img}>
             <img src={item.img} width={565} height={619} />
           </div>
         ))}
