@@ -60,6 +60,10 @@
   display: flex;
 }
 
+.nav ul a{
+  color: #2B1414;
+}
+
 .nav ul li {
   margin-right: 15px;
   position: relative;
@@ -87,6 +91,6 @@
   display: initial;
 }
 
-.hover:hover {
+/* .hover:hover {
   border-bottom: 2px solid red;
-}
+} */

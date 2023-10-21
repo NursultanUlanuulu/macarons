@@ -128,23 +128,25 @@ import dlyaDetey13 from  '../../assets/img/dlyaDetey/dlya-detey-13.png'
 
 /////////путь////////
 export const INITIAL_PATH = {
-    main_page: '/',
-    guarantee: '/guarantee',
-    podarochnye_nabory: '/podarochnye_nabory',
-    deserty_dlya_kofejni: '/deserty_dlya_kofejni',
-    catalog_desertov: '/catalog_desertov',
-    sales_week: '/sales_week',
-    sales_week_page_two: '/sales_week/page_two',
-    o_nas: '/o_nas',
-    delivery: '/delivery',
-    svadNabory: '/predlozhenie-dlya-svadeb',
-    contacts: '/contacts',
-    news: '/news',
-    classicMacarons:'/klassicheskie',
-    happyBirthday:'/gotovye-nabory/den-rozhdeniya',
-    denUchitelya:'/den-uchitelya',
-    dlyaDetey:'/dlya-detey',
-}
+  main_page: "/",
+  guarantee: "/guarantee",
+  podarochnye_nabory: "/podarochnye_nabory",
+  deserty_dlya_kofejni: "/deserty_dlya_kofejni",
+  catalog_desertov: "/catalog_desertov",
+  sales_week: "/sales_week",
+  sales_week_page_two: "/sales_week/page_two",
+  o_nas: "/o_nas",
+  delivery: "/delivery",
+  svadNabory: "/predlozhenie-dlya-svadeb",
+  contacts: "/contacts",
+  news: "/news",
+  classicMacarons: "/klassicheskie",
+  happyBirthday: "/gotovye-nabory/den-rozhdeniya",
+  denUchitelya: "/den-uchitelya",
+  dlyaDetey: "/dlya-detey",
+  sobrat_nabor: "/sobrat-nabor",
+  print: "/print",
+};
 
 ///////header/////////
 export const headerSlide = [
