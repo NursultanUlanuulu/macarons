@@ -97,8 +97,9 @@ const Header = () => {
                                 </li>
                                 <li>ВЕСЬ КАТАЛОГ <DownOutlined />
                                     <ul>
-                                        <li>МАКАРОН</li>
-                                        <li>ЭЛКЕРЫ</li>
+                                        <Link to={INITIAL_PATH.macarons}> <li>МАКАРОН</li></Link>
+                                       <Link to={INITIAL_PATH.eklery}> <li>ЭКЛЕРЫ</li></Link>
+                                        
                                         <Link to={INITIAL_PATH.podarochnye_nabory}><li>ПОДАРОЧНЫЕ НАБОРЫ</li></Link>
                                         <li>КОМБО-НАБОРЫ</li>
                                         <li>КАРАМЕЛЬ НА ПАЛОЧКЕ</li>

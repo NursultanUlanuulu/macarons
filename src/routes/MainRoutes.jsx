@@ -18,6 +18,8 @@ import ClassicMacarons from '../pages/ClassicMacarons'
 import HappyBirthday from '../pages/HappyBirthday'
 import DenUchitelya from '../pages/DenUchitelya'
 import DlyaDetey from '../pages/DlyaDetey'
+import Eklery from '../pages/Eklery'
+import Macaron from '../pages/Macaron'
 export const MainRoutes = () => {
   return (
      <Routes>
@@ -38,6 +40,8 @@ export const MainRoutes = () => {
            <Route path={INITIAL_PATH.happyBirthday} element={<HappyBirthday/>}/>
            <Route path={INITIAL_PATH.denUchitelya} element={<DenUchitelya/>}/>
            <Route path={INITIAL_PATH.dlyaDetey} element={<DlyaDetey/>}/>
+           <Route path={INITIAL_PATH.eklery} element={<Eklery/>}/>
+           <Route path={INITIAL_PATH.macarons} element={<Macaron/>}/>
         </Route>
      </Routes>
   )
