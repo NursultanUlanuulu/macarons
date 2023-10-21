@@ -1,8 +1,8 @@
-import React from 'react'
-import style from './Popular.module.css'
-import { ShoppingOutlined } from '@ant-design/icons'
-import { popularData } from '../../utils/constants/constants'
-import { Link } from 'react-router-dom'
+import React from "react";
+import style from "./Popular.module.css";
+import { ShoppingOutlined } from "@ant-design/icons";
+import { popularData } from "../../utils/constants/constants";
+import { Link } from "react-router-dom";
 const Popular = () => {
   return (
     <div>
@@ -20,21 +20,21 @@ const Popular = () => {
             <div className={style.bottom}>
               <h4 className={style.price}>{item.price} руб</h4>
               <div className={style.cart}>
-                <p><ShoppingOutlined /></p>
-                <p >корзину</p>
+                <p>
+                  <ShoppingOutlined />
+                </p>
+                <p>корзину</p>
               </div>
             </div>
           </div>
         ))}
-       
       </div>
       <div className={style.btn}>
-        
-          <Link to='/catalog_desertov'>Каталог десертов</Link>
-          {/* <Link to='/podarochnye-nabory'>Все праздничные наборы</Link> */}
-        </div>
+        <Link to="/catalog_desertov">Каталог десертов</Link>
+        {/* <Link to='/podarochnye-nabory'>Все праздничные наборы</Link> */}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Popular
+export default Popular;

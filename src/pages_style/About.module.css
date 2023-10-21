@@ -1,25 +1,25 @@
 .text {
-    text-align: center;
+  text-align: center;
 }
 
 .text h1 {
-    font-family: Montserrat;
-    font-size: 30px;
-    font-weight: 600;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
 }
 .text p {
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
 }
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.card_img{
-    margin-top: 40px;
-    margin-bottom: 20px;
+.card_img {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-.card_img img{
-    max-width: 100%;
-    height: auto;
+.card_img img {
+  max-width: 100%;
+  height: auto;
 }

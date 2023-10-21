@@ -1,13 +1,16 @@
-import React from 'react'
-import style from './Footer.module.css'
+import React from "react";
+import style from "./Footer.module.css";
 // import footer from '../../assets/footer.png'
 // import footer2 from '../../assets/footer2.png'
 // import footer3 from '../../assets/footer3.png'
-import ico from '../../assets/ico.png'
-import ico2 from '../../assets/ico2.png'
-import ico3 from '../../assets/ico3.png'
-import { footerIconData, footerTextData } from '../../utils/constants/constants'
-import { Link } from 'react-router-dom'
+import ico from "../../assets/ico.png";
+import ico2 from "../../assets/ico2.png";
+import ico3 from "../../assets/ico3.png";
+import {
+  footerIconData,
+  footerTextData,
+} from "../../utils/constants/constants";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
@@ -24,14 +27,16 @@ const Footer = () => {
                 ))}
               </div>
               <div>
-                <p className={style.adres}>© 2021 Макароншоп ООО "Квантум", Санкт-Петербург,  улица Маршала Тухачевского, дом 22
+                <p className={style.adres}>
+                  © 2021 Макароншоп ООО Квантум, Санкт-Петербург, улица Маршала
+                  Тухачевского, дом 22
                 </p>
               </div>
             </div>
             {/*  */}
             <div className={style.list}>
               {footerTextData.map((item) => (
-                <div className={style.text}>
+                <div className={style.text} key={item.id}>
                   <h3>{item.title}</h3>
                   <ul className={style.ul}>
                     {item.items.map((subItem) => (
@@ -58,8 +63,7 @@ const Footer = () => {
         </div>
       </footer>
     </div>
+  );
+};
 
-  )
-}
-
-export default Footer
+export default Footer;

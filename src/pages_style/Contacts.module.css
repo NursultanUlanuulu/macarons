@@ -1,20 +1,20 @@
-.contacts{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 40px 0 40px;
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px 0 40px;
 }
-.photo{
-    padding-left: 80px;
+.photo {
+  padding-left: 80px;
 }
-.makaron{
-    position: relative;
-    margin: 51px 1px 152px -20px;
+.makaron {
+  position: relative;
+  margin: 51px 1px 152px -20px;
 }
-.mesto{
-    position: absolute;
+.mesto {
+  position: absolute;
 }
-.textContact{
-    padding-top: 30px;
-    padding-right: 80px;
-    line-height: 24px;
+.textContact {
+  padding-top: 30px;
+  padding-right: 80px;
+  line-height: 24px;
 }

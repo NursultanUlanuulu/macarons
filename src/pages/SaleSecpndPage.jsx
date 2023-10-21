@@ -1,8 +1,8 @@
-import React from 'react'
-import { popularData } from '../utils/constants/constants'
-import { ShoppingOutlined } from '@ant-design/icons'
-import style from '../pages_style/Sale.module.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { popularData } from "../utils/constants/constants";
+import { ShoppingOutlined } from "@ant-design/icons";
+import style from "../pages_style/Sale.module.css";
+import { Link } from "react-router-dom";
 const SaleSecpndPage = () => {
   return (
     <div>
@@ -24,8 +24,10 @@ const SaleSecpndPage = () => {
               <div className={style.bottom}>
                 <h4 className={style.price}>{item.price} руб</h4>
                 <div className={style.cart}>
-                  <p><ShoppingOutlined /></p>
-                  <p >корзину</p>
+                  <p>
+                    <ShoppingOutlined />
+                  </p>
+                  <p>корзину</p>
                 </div>
               </div>
             </div>
@@ -33,14 +35,18 @@ const SaleSecpndPage = () => {
         </div>
         <nav>
           <ul className={style.page_numbers}>
-            <li><Link to='/sales_week'>←</Link></li>
-            <li><Link to='/sales_week'>1</Link></li>
+            <li>
+              <Link to="/sales_week">←</Link>
+            </li>
+            <li>
+              <Link to="/sales_week">1</Link>
+            </li>
             <li>2</li>
           </ul>
         </nav>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SaleSecpndPage
+export default SaleSecpndPage;
