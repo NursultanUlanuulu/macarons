@@ -34,7 +34,7 @@ const Header = () => {
             <SwiperSlide key={item.id}>
               <div className={style.slide}>
                 <div>
-                  {" "}
+        
                   <img src={item.img} alt="" />
                 </div>
                 <div>
