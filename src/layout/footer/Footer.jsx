@@ -32,8 +32,8 @@ const Footer = () => {
             </div>
             {/*  */}
             <div className={style.list}>
-              {footerTextData.map((item) => (
-                <div className={style.text} key={item.id}>
+              {footerTextData.map((item ,id) => (
+                <div  className={style.text} key={id}>
                   <h3>{item.title}</h3>
                   <ul className={style.ul}>
                     {item.items.map((subItem) => (

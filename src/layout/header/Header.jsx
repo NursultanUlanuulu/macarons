@@ -77,7 +77,7 @@ const Header = () => {
                                         <Link to={INITIAL_PATH.happyBirthday}> <li>ДЕНЬ РОЖДЕНИЯ</li></Link>
                                         <Link to={INITIAL_PATH.classicMacarons}><li>МАКАРОНС КЛАСИЧЕСКИЕ</li></Link>
                                         <Link to={INITIAL_PATH.svadNabory}><li> СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</li></Link>
-                                        <li>КИНДЕР-БАРЫ</li>
+                                        <Link to={INITIAL_PATH.kendiBary}> <li>КЕНДИ-БАРЫ</li></Link>
                                         <Link to={INITIAL_PATH.dlyaDetey}><li>ДЕТСКИЕ ПРАЗДНИКИ</li></Link>
                                     </ul>
                                 </li>
@@ -101,14 +101,13 @@ const Header = () => {
                                 </li>
                                 <li>ВЕСЬ КАТАЛОГ <DownOutlined />
                                     <ul>
-                                        <li>МАКАРОН</li>
-                                        <li>ЭЛКЕРЫ</li>
+                                        <Link to={INITIAL_PATH.macaron}> <li>МАКАРОН</li></Link>
+                                        <Link to={INITIAL_PATH.eklery}> <li>ЭКЛЕРЫ</li></Link>
                                         <Link to={INITIAL_PATH.podarochnye_nabory}><li>ПОДАРОЧНЫЕ НАБОРЫ</li></Link>
-                                        <li>КОМБО-НАБОРЫ</li>
-                                        <li>КАРАМЕЛЬ НА ПАЛОЧКЕ</li>
-                                        <li>ВАФЕЛЬНЫЕ ТРУБОЧКИ</li>
-                                        <li>КЕЙК-ПОПСЫ</li>
-                                        <li>ДЕСЕРТ КАРТОШКА</li>
+                                        <Link to={INITIAL_PATH.kombo_nabory}> <li>КОМБО-НАБОРЫ</li></Link>
+                                        <Link to={INITIAL_PATH.karamel}><li>КАРАМЕЛЬ НА ПАЛОЧКЕ</li></Link>
+                                        <Link to={INITIAL_PATH.trubochki}> <li>ВАФЕЛЬНЫЕ ТРУБОЧКИ</li></Link>
+                                        <Link to={INITIAL_PATH.cake_pops}><li>КЕЙК-ПОПСЫ</li></Link>
                                     </ul>
                                 </li>
                             </ul>
