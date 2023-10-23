@@ -242,38 +242,38 @@ export const headerData = [
 
 
 export const holidaysData = [
-    {
-        id: 1,
-        img: bday,
-        description: 'Скоро День рождения близкого человека'
-    },
-    {
-        id: 2,
-        img: holiday,
-        description: 'Скоро День рождения близкого человека'
-    },
-    {
-        id: 3,
-        img: holiday2,
-        description: 'Скоро День рождения близкого человека'
-    },
-    {
-        id: 4,
-        img: holiday3,
-        description: 'Скоро День рождения близкого человека'
-    },
-    {
-        id: 5,
-        img: holiday4,
-        description: 'Скоро День рождения близкого человека'
-    },
-    {
-        id: 6,
-        img: holiday5,
-        description: 'Скоро День рождения близкого человека'
-    },
-
-]
+  {
+    id: 1,
+    img: bday,
+    description: "Скоро День рождения близкого человека",
+    path: "/gotovye-nabory/den-rozhdeniya",
+  },
+  {
+    id: 2,
+    img: holiday,
+    description: "30 октября День тренера",
+  },
+  {
+    id: 3,
+    img: holiday2,
+    description: "31 октября Хэллоуин",
+  },
+  {
+    id: 4,
+    img: holiday3,
+    description: "27 ноября День Матери",
+  },
+  {
+    id: 5,
+    img: holiday4,
+    description: "1 января Новый Год",
+  },
+  {
+    id: 6,
+    img: holiday5,
+    description: "14 февраля День Святого Валентина",
+  },
+];
 
 export const popularData = [
     {

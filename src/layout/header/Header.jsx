@@ -78,7 +78,7 @@ const Header = () => {
                                         <Link to={INITIAL_PATH.classicMacarons}><li>МАКАРОНС КЛАСИЧЕСКИЕ</li></Link>
                                         <Link to={INITIAL_PATH.svadNabory}><li> СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</li></Link>
                                         <li>КИНДЕР-БАРЫ</li>
-                                        <Link to={INITIAL_PATH.dlyaDetey}><li>ДЕТСКИЕ ПРАЗДНИКИ</li></Link>
+                                        <Link to={INITIAL_PATH.dlyaDetey}><li>ДЕТСКИЕ ПРАЗДНИКИ</li></Link>   
                                     </ul>
                                 </li>
                                 <li className={style.hover}>СОБРАТЬ НАБОР</li>
