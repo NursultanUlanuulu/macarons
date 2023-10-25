@@ -1,0 +1,55 @@
+.image_container {
+  position: fixed;
+  top: 50%;
+  left: 87%;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.text,
+.contacts {
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.showContent .text,
+.hideContent .contacts {
+  opacity: 1;
+  visibility: visible;
+}
+
+.text {
+  position: absolute;
+  top: 150px;
+  right: 60px;
+  background-color: #fff;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 10px 22px;
+}
+
+.contacts img {
+  padding-top: 5px;
+}
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+}

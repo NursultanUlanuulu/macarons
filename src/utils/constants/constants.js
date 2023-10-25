@@ -159,6 +159,13 @@ export const INITIAL_PATH = {
     happyBirthday:'/gotovye-nabory/den-rozhdeniya',
     denUchitelya:'/den-uchitelya',
     dlyaDetey:'/dlya-detey',
+    kendiBary:'/kendi_bary',
+    eklery:'/eklery',
+    macaron:'/macarons',
+    kombo_nabory:'/kombo_nabory',
+    karamel:'/karamel',
+    trubochki:'/trubochki',
+    cake_pops:'/cake_pops'
 }
 
 ///////header/////////
@@ -224,23 +231,6 @@ export const headerData = [
     },
 
 ]
-// export const navData = [
-//     {
-//         id: 1,
-//         title: 'СЛАДКИЕ ДНИ',
-//     },
-//     {
-//         id: 2,
-//         title: 'ПОДАРОЧНЫЕ НАБОРЫХ',
-//     },
-//     {
-//         id: 3,
-//         title: 'СОБРАТЬ НАБОР',
-//     },
-
-// ]
-
-
 export const holidaysData = [
   {
     id: 1,
@@ -1138,74 +1128,74 @@ export const dlyaDetey=[
         img: happyBirthday12 ,
         price:890
     },
+    
     {
         id:5,
-        title:' Подарочный набор  "Клубнички"',
-        description:' 30 леденцов в наборе. Вкус: клубника.',
-        img: dlyaDetey5 ,
-        price:980
-    },
-    {
-        id:6,
-        title:' Подарочный набор "Радужные Витки"',
-        description:'15 леденцов в наборе. Вкус: клубника, ананас.',
-        img: dlyaDetey6 ,
-        pricedf:840
-    },
-    {
-        id:7,
         title:'Детский набор макарон ',
         description:' 20 макаронс в коробке. Вкусы ассорти',
         img: dlyaDetey7 ,
         pricedf:1190
     },
     {
-        id:8,
-        title:'Сердечки ',
-        description:' 30 леденцов в наборе. Вкус: вишня, клубника.',
-        img: dlyaDetey8 ,
-        pricedf:1050
-    },
-    {
-        id:9,
+        id:6,
         title:' Подарки ко Дню рождения',
         description:' 9 макаронс в коробке. Вкусы ассорти',
         img: dlyaDetey9 ,
         pricedf:890
     },
     {
-        id:10,
+        id:7,
+        title:'Сердечки ',
+        description:' 30 леденцов в наборе. Вкус: вишня, клубника.',
+        img: dlyaDetey8 ,
+        pricedf:1050
+    },
+   
+    {
+        id:8,
         title:' Спиральки №1',
-        description:'30 леденцов в наборе. Вкус: апельсин, арбуз, клубника. ',
+        description:'30 леденцов в наборе. Вкус: апельсин, арбуз ',
         img: dlyaDetey10 ,
         pricedf:1050
     },
     {
-        id:11,
+        id:9,
         title:'Диски с сухофруктами ',
         description:' 30 леденцов в наборе. Вкус: эко/сухофрукты.',
         img: dlyaDetey11 ,
         pricedf:1260
     },
     {
-        id:12,
+        id:10,
         title:'Дольки арбуза ',
         description:'30 леденцов в наборе. Вкус: арбуз. ',
         img: dlyaDetey12 ,
         pricedf:720
     },
     {
-        id:13,
+        id:11,
         title:' Радужные Диски №1',
-        description:' 30 леденцов в наборе. Вкус: апельсин, арбуз, клубника.',
+        description:' 30 леденцов в наборе. Вкус: апельсин, клубника.',
         img: dlyaDetey13 ,
         pricedf:1200
+    },
+    {
+        id:12,
+        title:' Подарочный набор  "Клубнички"',
+        description:' 30 леденцов в наборе. Вкус: клубника.',
+        img: dlyaDetey5 ,
+        price:980
+    },
+    {
+        id:13,
+        title:'Набор "Радужные Витки"',
+        description:'15 леденцов в наборе. Вкус: клубника, ананас.',
+        img: dlyaDetey6 ,
+        pricedf:840
     },
 
   
 ]
-
-
 export const ekleryData=[
     {
         id:1,

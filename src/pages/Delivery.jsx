@@ -33,9 +33,8 @@ const Delivery = () => {
               осуществляется только по Санкт-Петербургу в пределах кольцевой
               автомобильной дороги (КАД).
               <span style={{ color: "red", fontSize: "16px" }}>
-                {" "}
                 Точная зона доставки.
-              </span>{" "}
+              </span>
             </li>
             <li>
               Если Вы готовы принять заказ в интервале с 12 до 17 часов или с 17
@@ -50,9 +49,9 @@ const Delivery = () => {
           </ul>
         </div>
       </div>
-      <div className={styles.bgImg}>
+      {/* <div className={styles.bgImg}>
         <img src={bgImg} alt="" />
-      </div>
+      </div> */}
 
       <div className={styles.dostavkaBlock2}>
         <div className={styles.scBlockText}>

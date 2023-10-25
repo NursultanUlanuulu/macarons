@@ -18,6 +18,14 @@ import ClassicMacarons from '../pages/ClassicMacarons'
 import HappyBirthday from '../pages/HappyBirthday'
 import DenUchitelya from '../pages/DenUchitelya'
 import DlyaDetey from '../pages/DlyaDetey'
+import CandyBary from '../pages/CandyBary'
+import Eklery from '../pages/Eklery'
+import Macaron from '../pages/Macaron'
+import Kombo_nabory from '../pages/Kombo_nabory'
+import Karamel from '../pages/Karamel'
+import Trubochki from '../pages/Trubochki'
+import Cake_pops from '../pages/Cake_pops'
+
 export const MainRoutes = () => {
   return (
      <Routes>
@@ -38,6 +46,14 @@ export const MainRoutes = () => {
            <Route path={INITIAL_PATH.happyBirthday} element={<HappyBirthday/>}/>
            <Route path={INITIAL_PATH.denUchitelya} element={<DenUchitelya/>}/>
            <Route path={INITIAL_PATH.dlyaDetey} element={<DlyaDetey/>}/>
+           <Route path={INITIAL_PATH.kendiBary} element={<CandyBary/>}/>
+           <Route path={INITIAL_PATH.kendiBary} element={<CandyBary/>}/>
+           <Route path={INITIAL_PATH.eklery} element={<Eklery/>}/>
+           <Route path={INITIAL_PATH.macaron} element={<Macaron/>}/>
+           <Route path={INITIAL_PATH.kombo_nabory} element={<Kombo_nabory/>}/>
+           <Route path={INITIAL_PATH.karamel} element={<Karamel/>}/>
+           <Route path={INITIAL_PATH.trubochki} element={<Trubochki/>}/>
+           <Route path={INITIAL_PATH.cake_pops} element={<Cake_pops/>}/>
         </Route>
      </Routes>
   )

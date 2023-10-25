@@ -1,4 +1,3 @@
-/* <<<<<<< HEAD
 .dostavkaBlock {
   display: flex;
   justify-content: space-between;
@@ -54,10 +53,6 @@
   width: 1168px;
   background-color: #f6f6f6;
 }
-.bgImg {
-  position: absolute;
-  width: 1168px;
-}
 .scBlockText {
   position: relative;
   width: 429px;
@@ -93,105 +88,6 @@
   margin: 0px 200px 43px -110px;
 }
 .mapImg {
-  width: 1500px;
-  margin: 220px 0px -2px -29px;
+  width: 1437px;
+  margin: 170px 0px -4px -99px;
 }
-/* ======= */ 
-.dostavkaBlock{
-    display: flex; 
-    justify-content: space-between;
-    background-color: #F6F6F6;
- }
- .dostavkaText{
-     margin-left: 99px;
-     padding-top: 91px;
- }
- .dostavkaText h2{
-     font-size: 42px;
-     line-height: 51px;
-     text-align: left;
- }
- .dostavkaText p{
-     font-size: 22px;
-     line-height: 23px;
- }
- .dostavkaText h5{
-     font-size: 18px;
-     margin: 17px 0;
- }
- .dostavkaText ol{   
-     line-height: 21px;
-     width: 402px;   
- } 
- .ul li{
-     list-style: none;
-     margin-top: 11px;
- }
- .cycle{
-     width: 476.35px;
-     height: 277.61px;
-     top: 487.12px;
-     left: 156.83px;
-     margin:156px  0 0 20px;
- }
- .leaf{
-     position: absolute;
-     margin: 238px 0 0 -444px;
- }
- .makaron2{
-    margin: -206px 0 0 28px;
- 
- }
- .makaron1{
-     margin: -260px 0 0 237px;
- }
- 
- /* block2 */
- .dostavkaBlock2{
-     display: flex;
-     justify-content: space-between;
-     width: 1168px;
-     background-color:#F6F6F6;
- }
- .bgImg{
-     position: absolute;
-     width: 1168px;
- }.scBlockText{
-     position: relative;
-     width: 429px;
-     margin-top: 32px;
-     margin-left: 34px;
- }
- .scBlockText h3{
-     font-family: Montserrat;
-     font-size: 18px;
-     font-weight: 600;
-     line-height: 22px;
-     letter-spacing: 0em;
-     text-align: left;
- }
- .scBlockText ul li{
-     font-family: Proxima Nova;
-     font-size: 16px;
-     font-weight: 400;
-     line-height: 21px;
-     letter-spacing: 0em;
-     text-align: left;
- }
- .scBlockImg{
-     position: relative;
- }
- .vector{
-     margin: 120px -184px 0px  0px;
- }
- .layer1{
-     margin: 0px 0px 270px  -61px;
- }
- .layer2{
-     margin: 0px 200px 43px -110px;
- }
- .mapImg{ 
-     width: 1437px;
-     margin: 256px 0px -4px 2px;
- }
-/* >>>>>>> 48593406b8ba40c9694af14fdf27bb9b3be5543c */
