@@ -1,4 +1,3 @@
-import React from "react";
 import cycle from "../assets/img/delivery/cycle.png";
 import leaf from "../assets/img/delivery/leaf.png";
 import makaron1 from "../assets/img/delivery/makaron1.png";
@@ -7,7 +6,6 @@ import vector from "../assets/img/delivery/Vector.png";
 import layer1 from "../assets/img/delivery/Layer 35 1.png";
 import layer2 from "../assets/img/delivery/Layer 34 1.png";
 import map from "../assets/img/delivery/map.png";
-import bgImg from "../assets/img/delivery/backgroundImg.png";
 import styles from "../pages_style/Delivery.module.css";
 const Delivery = () => {
   return (
@@ -49,10 +47,6 @@ const Delivery = () => {
           </ul>
         </div>
       </div>
-      {/* <div className={styles.bgImg}>
-        <img src={bgImg} alt="" />
-      </div> */}
-
       <div className={styles.dostavkaBlock2}>
         <div className={styles.scBlockText}>
           <h3>Самовывоз</h3>

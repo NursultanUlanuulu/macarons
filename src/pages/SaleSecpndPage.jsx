@@ -1,4 +1,3 @@
-import React from "react";
 import { popularData } from "../utils/constants/constants";
 import { ShoppingOutlined } from "@ant-design/icons";
 import style from "../pages_style/Sale.module.css";

@@ -1,4 +1,3 @@
-import React from 'react'
 import { ekleryData } from '../utils/constants/constants'
 import { ShoppingOutlined } from '@ant-design/icons'
 import styles from '../pages_style/Eklery.module.css'

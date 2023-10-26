@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../pages_style/Kombo_nabory.module.css'
 import  {ShoppingOutlined} from '@ant-design/icons'
 import {  denUchitelya } from '../utils/constants/constants';

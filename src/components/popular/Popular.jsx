@@ -1,15 +1,51 @@
-import React from "react";
 import style from "./Popular.module.css";
 import { ShoppingOutlined } from "@ant-design/icons";
 import { popularData } from "../../utils/constants/constants";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+const textAnimation = {
+  hidden: {
+    y: 200,
+    opacity: 0,
+  },
+  visible: (custom) => ({
+    y: 0,
+    opacity: 1,
+    transition: { delay: custom * 0.2 },
+  }),
+};
+const popularAnimation = {
+  hidden: {
+    y: 100,
+    opacity: 0,
+  },
+  visible: (custom) => ({
+    y: 0,
+    opacity: 1,
+    transition: { delay: custom * 0.2 },
+  }),
+};
 const Popular = () => {
   return (
-    <div>
-      <h1 className={style.title}>Популярные наборы</h1>
-      <div className={style.cards}>
-        {popularData.slice(0, 6).map((item) => (
-          <div className={style.card} key={item.id}>
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.2, once: true }}
+    >
+      <motion.h1 className={style.title} custom={1} variants={textAnimation}>
+        Популярные наборы
+      </motion.h1>
+      <motion.div className={style.cards}>
+        {popularData.slice(0, 6).map((item, index) => (
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ amount: 0.2, once: true }}
+            custom={index + 1}
+            variants={popularAnimation}
+            className={style.card}
+            key={item.id}
+          >
             <div className="">
               <img src={item.img} alt="" />
             </div>
@@ -26,14 +62,13 @@ const Popular = () => {
                 <p>корзину</p>
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
-      <div className={style.btn}>
+      </motion.div>
+      <motion.div custom={9} variants={popularAnimation} className={style.btn}>
         <Link to="/catalog_desertov">Каталог десертов</Link>
-        {/* <Link to='/podarochnye-nabory'>Все праздничные наборы</Link> */}
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

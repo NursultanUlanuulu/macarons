@@ -1,4 +1,3 @@
-import React from 'react'
 import { ShoppingOutlined } from '@ant-design/icons'
 import style from '../pages_style/Macaron.module.css'
 import { popularData } from '../utils/constants/constants'

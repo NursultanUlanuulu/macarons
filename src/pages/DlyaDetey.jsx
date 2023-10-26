@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../pages_style/DlyaDetey.module.css'
 import { ShoppingOutlined } from '@ant-design/icons'
 import { dlyaDetey } from '../utils/constants/constants'

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../pages_style/HappyBirthday.module.css'
 import { happyBirthdayData } from '../utils/constants/constants'
 import { ShoppingOutlined } from '@ant-design/icons'

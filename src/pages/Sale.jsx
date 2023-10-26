@@ -1,4 +1,3 @@
-import React from "react";
 import { popularData } from "../utils/constants/constants";
 import { ShoppingOutlined } from "@ant-design/icons";
 import style from "../pages_style/Sale.module.css";
@@ -34,11 +33,8 @@ const Sale = () => {
       </div>
       <nav>
         <ul className={style.page_numbers}>
-          {/* ::before */}
           <li>
-            <span >
-              1
-            </span>
+            <span>1</span>
           </li>
           <li>
             <Link to="/sales_week/page_two">2</Link>
@@ -46,7 +42,6 @@ const Sale = () => {
           <li>
             <Link to="/sales_week/page_two">→</Link>
           </li>
-          {/* ::after */}
         </ul>
       </nav>
     </div>

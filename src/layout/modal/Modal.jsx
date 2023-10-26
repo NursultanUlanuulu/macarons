@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import smaile1 from "../../assets/img/modal/sm.svg";
 import smaile2 from "../../assets/img/modal/sm2.svg";
 import whats from "../../assets/img/modal/ws.png";
@@ -14,7 +14,7 @@ const Modal = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowComponent(true);
-    }, 5000);
+    }, 20000);
     return () => clearTimeout(timer);
   }, []);
 

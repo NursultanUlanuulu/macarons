@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../pages_style/DenUchitelya.module.css'
 import { ShoppingOutlined } from '@ant-design/icons'
 import { denUchitelya } from '../utils/constants/constants'

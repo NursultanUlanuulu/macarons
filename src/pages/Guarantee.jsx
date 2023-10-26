@@ -1,4 +1,3 @@
-import React from "react";
 import { guaranteeData } from "../utils/constants/constants";
 import style from "../pages_style/Guarantee.module.css";
 const Guarantee = () => {

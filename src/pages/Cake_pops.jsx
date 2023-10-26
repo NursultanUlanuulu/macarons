@@ -1,5 +1,4 @@
 import { ShoppingOutlined } from '@ant-design/icons'
-import React from 'react'
 import { happyBirthdayData } from '../utils/constants/constants'
 import styles from '../pages_style/Cake_pops.module.css'
 const Cake_pops = () => {

@@ -1,5 +1,4 @@
 import { ShoppingOutlined } from '@ant-design/icons';
-import React from 'react'
 import { dlyaDetey } from '../utils/constants/constants';
 import styles from '../pages_style/Karamel.module.css'
 const Karamel = () => {

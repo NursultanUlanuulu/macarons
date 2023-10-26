@@ -1,4 +1,3 @@
-import React from 'react'
 import { naboryDlyaSvadby } from '../utils/constants/constants'
 import styles from '../pages_style/CandyBary.module.css'
 import candyBar from '../assets/img/candyBar/candy-bar-4.png'

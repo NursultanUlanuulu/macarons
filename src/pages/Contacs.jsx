@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../pages_style/Contacts.module.css";
 import makaron from "../assets/img/contacts/makaron.png";
 import mestoPol from "../assets/img/contacts/mesto.png";

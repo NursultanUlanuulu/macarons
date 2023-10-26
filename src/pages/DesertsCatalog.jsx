@@ -1,4 +1,3 @@
-import React from "react";
 import style from "../pages_style/DesertsCatalog.module.css";
 import catalog from "../assets/img/desertsCatalog/catalog.png";
 import { DesertsCatalogData, popularData } from "../utils/constants/constants";

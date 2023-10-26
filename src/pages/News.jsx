@@ -1,4 +1,3 @@
-import React from "react";
 import style from "../pages_style/News.module.css";
 import { newsData } from "../utils/constants/constants";
 const News = () => {
@@ -7,7 +6,7 @@ const News = () => {
             <h1 className={style.title}>Нововсти</h1>
             <div className={style.blocks}>
                 {newsData.map((item) => (
-                    <div className={style.block}>
+                    <div className={style.block} key={item.id}>
                         <div className="img">
                             <img src={item.img} width={370} />
                         </div>

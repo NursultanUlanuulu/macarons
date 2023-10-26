@@ -1,4 +1,3 @@
-import React from "react";
 import { aboutData } from "../utils/constants/constants";
 import style from "../pages_style/About.module.css";
 const About = () => {
