@@ -3,31 +3,32 @@ import slide from "../../assets/img/header/slide.png";
 import slide2 from "../../assets/img/header/slide2.png";
 import slide3 from "../../assets/img/header/slide3.png";
 import slide4 from "../../assets/img/header/slide4.svg";
-import bday from "../../assets/bday.svg";
-import holiday from "../../assets/holiday.png";
-import holiday2 from "../../assets/holiday2.png";
-import holiday3 from "../../assets/holiday3.png";
-import holiday4 from "../../assets/holiday4.png";
-import holiday5 from "../../assets/holiday5.png";
-import card from "../../assets/card.png";
-import card2 from "../../assets/card2.png";
-import card3 from "../../assets/card3.png";
-import card4 from "../../assets/card4.png";
-import card5 from "../../assets/card5.png";
-import card6 from "../../assets/card6.png";
+import bag from "../../assets/img/header/bag.svg";
+import phone from "../../assets/img/header/phone.svg";
+import place from "../../assets/img/header/place.svg";
+///////holiday////
+import bday from "../../assets/img/holiday/bday.svg";
+import holiday from "../../assets/img/holiday/holiday.png";
+import holiday2 from "../../assets/img/holiday/holiday2.png";
+import holiday3 from "../../assets/img/holiday/holiday3.png";
+import holiday4 from "../../assets/img/holiday/holiday4.png";
+import holiday5 from "../../assets/img/holiday/holiday5.png";
+
+import card from "../../assets/img/card/card.png";
+import card2 from "../../assets/img/card/card2.png";
+import card3 from "../../assets/img/card/card3.png";
+import card4 from "../../assets/img/card/card4.png";
+import card5 from "../../assets/img/card/card5.png";
+import card6 from "../../assets/img/card/card6.png";
 import popular from "../../assets/img/popular/popular.png";
 import popular2 from "../../assets/img/popular/popular2.png";
 import popular3 from "../../assets/img/popular/popular3.png";
 import popular4 from "../../assets/img/popular/popular4.png";
 import popular5 from "../../assets/img/popular/popular5.png";
-
-import bag from "../../assets/bag.svg";
-import phone from "../../assets/phone.svg";
-import place from "../../assets/place.svg";
 ///////гарантияяя///////
-import guarantee from "../../assets/guarantee.jpg";
-import guarantee2 from "../../assets/guarantee2.jpg";
-import guarantee3 from "../../assets/guarantee3.jpg";
+import guarantee from "../../assets/img/guarantee/guarantee.jpg";
+import guarantee2 from "../../assets/img/guarantee/guarantee2.jpg";
+import guarantee3 from "../../assets/img/guarantee/guarantee3.jpg";
 ///////поставки////////
 import suplples2 from "../../assets/img/supplies/suplples2.png";
 import suplples3 from "../../assets/img/supplies/suplples3.png";

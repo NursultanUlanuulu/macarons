@@ -1,5 +1,5 @@
 import style from "./Header.module.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/img/header/logo.png";
 import { DownOutlined } from "@ant-design/icons";
 import {
   INITIAL_PATH,

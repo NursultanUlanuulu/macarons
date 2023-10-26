@@ -1,8 +1,7 @@
-import React from "react";
 import style from "./Footer.module.css";
-import ico from "../../assets/ico.png";
-import ico2 from "../../assets/ico2.png";
-import ico3 from "../../assets/ico3.png";
+import ico from "../../assets/img/footer/ico.png";
+import ico2 from "../../assets/img/footer/ico2.png";
+import ico3 from "../../assets/img/footer/ico3.png";
 import {
   footerIconData,
   footerTextData,
