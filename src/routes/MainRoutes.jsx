@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "../layout/Layout";
 import MainPage from "../pages/MainPage";
 import Guarantee from "../pages/Guarantee";
-import { INITIAL_PATH } from "../utils/constants/constants";
+import { INITIAL_PATH, footerTextData } from "../utils/constants/constants";
 import Gift from "../pages/Gift";
 import Supplies from "../pages/Supplies";
 import DesertsCatalog from "../pages/DesertsCatalog";
@@ -26,6 +26,11 @@ import Trubochki from "../pages/Trubochki";
 import Cake_pops from "../pages/Cake_pops";
 import AssembleSet from "../pages/AssembleSet";
 import CreateDesign from "../pages/CreateDesign";
+import KaramelOptom from "../pages/karamelOptom";
+import KorporatibnyePodarki from "../pages/KorporatibnyePodarki";
+import EkleryOptom from "../pages/EkleryOptom";
+import Politika from "../pages/Politika";
+
 
 export const MainRoutes = () => {
   return (
@@ -69,6 +74,9 @@ export const MainRoutes = () => {
         <Route path={INITIAL_PATH.cake_pops} element={<Cake_pops />} />
         <Route path={INITIAL_PATH.sobrat_nabor} element={<AssembleSet/>} />
         <Route path={INITIAL_PATH.print} element={<CreateDesign/>}/>
+        <Route path={INITIAL_PATH.karamell} element={<KaramelOptom/>}/>
+        <Route path={INITIAL_PATH.korporativ} element={<KorporatibnyePodarki/>}/>
+        <Route path={INITIAL_PATH.ekleryOptom} element={<EkleryOptom/>}/>
       </Route>
     </Routes>
   );

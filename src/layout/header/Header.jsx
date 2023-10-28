@@ -122,9 +122,10 @@ const Header = () => {
                     <Link to={INITIAL_PATH.deserty_dlya_kofejni}>
                       <li>ОПТОВЫЕ ПОСТАВКИ</li>
                     </Link>
-                    <li>КАРАМЕЛЬ НА ПАЛОЧКЕ ОПТОМ</li>
-                    <li>КОРПОРАТИВНЫЕ ПОДАКИ</li>
-                    <li>ЭЛКЕРЫ ОПТОМ</li>
+                    <Link to={INITIAL_PATH.karamell}><li>КАРАМЕЛЬ НА ПАЛОЧКЕ ОПТОМ</li></Link>
+                     <Link to={INITIAL_PATH.korporativ}>  <li>КОРПОРАТИВНЫЕ ПОДАКИ</li></Link>
+                   
+                    <Link to={INITIAL_PATH.ekleryOptom}><li>ЭЛКЕРЫ ОПТОМ</li></Link>
                   </ul>
                 </li>
                 <li>

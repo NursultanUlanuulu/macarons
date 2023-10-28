@@ -1,0 +1,36 @@
+.sotrudnichestvo{
+    background-color: rgb(250, 223, 235);
+    height: 600px;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+.inputs input{
+    width: 350px;
+    margin-bottom: -90px;
+    height: 40px;
+    margin-right: 30px;
+    padding-left: 20px;
+}
+.h1{
+    width: 690px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+.button{
+    text-align: center;
+    width: 193px;
+    height: 50px;
+    margin-left: 490px;
+    margin-bottom: 33px;
+}
+.sotrudnichestvo p{
+   
+    font-size: 14px;
+    margin-left: 40px;
+}
