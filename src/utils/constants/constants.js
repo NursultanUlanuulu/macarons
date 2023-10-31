@@ -151,7 +151,14 @@ import eklery_10 from "../../assets/img/eklery/eklery_10.png";
 import eklery_11 from "../../assets/img/eklery/eklery_11.png";
 import eklery_12 from "../../assets/img/eklery/eklery_12.png";
 
-//////////////KARAMEL NA PALOCHKE/////////
+
+//////////////KARAMEL NA PALOCHKE optom/////////
+import sell_1 from '../../assets/img/sellKaramel/sellKaramel_1.svg'
+import sell_2 from '../../assets/img/sellKaramel/sellKaramel_2.svg'
+import sell_3 from '../../assets/img/sellKaramel/sellKaramel_3.svg'
+import sell_4 from '../../assets/img/sellKaramel/sellKaramel_4.svg'
+import sell_5 from '../../assets/img/sellKaramel/sellKaramel_5.svg'
+import sell_6 from '../../assets/img/sellKaramel/sellKaramel_6.svg'
 
 /////prodoct detal///
 import detal from "../../assets/img/singleProduct/d.svg"
@@ -183,8 +190,12 @@ export const INITIAL_PATH = {
   trubochki: "/trubochki",
   cake_pops: "/cake_pops",
   sobrat_nabor: "/sobrat-nabor",
-  print: "/print/",
   product: "/product",
+  print: "/print",
+  karamell: "/karamel-opt",
+  korporativ: "/korporativnye-podarki",
+  ekleryOptom: "/eklery-optom",
+  politika: "/politica",
 };
 
 ///////header/////////
@@ -819,7 +830,7 @@ export const footerTextData = [
       { text: "Контакты", link: "/contacts" },
       {
         text: "Политика конфиденциальности",
-        link: "/политика-конфиденциальности",
+        link: "/politica",
       },
     ],
   },
@@ -828,8 +839,8 @@ export const footerTextData = [
     items: [
       { text: "Каталог десертов", link: "/catalog_desertov" },
       { text: "Подарочные наборы", link: "/podarochnye_nabory" },
-      { text: "Собрать свой набор", link: "/собрать-свой-набор" },
-      { text: "Акции", link: "/акции" },
+      { text: "Собрать свой набор", link: "/sobrat-nabor" },
+      { text: "Создать дизайн", link: "/print" },
     ],
   },
   {
@@ -1370,3 +1381,36 @@ export const ekleryData = [
     price: 1040,
   },
 ];
+
+ export const sellTheKaramelData=[
+  {
+    id:1,
+    img: sell_1,
+    title: 'Магазинах у дома ',
+  },
+  {
+    id:1,
+    img: sell_2 ,
+    title: 'Торговых сетях ',
+  },
+  {
+    id:1,
+    img: sell_3 ,
+    title: 'Кофейнях ',
+  },
+  {
+    id:1,
+    img: sell_4 ,
+    title: 'Кондитерских ',
+  },
+  {
+    id:1,
+    img: sell_5 ,
+    title: 'Кафе ',
+  },
+  {
+    id:1,
+    img: sell_6 ,
+    title: 'Детских центрах ',
+  },
+]

@@ -1,0 +1,75 @@
+.firstPage{
+    display: flex;
+    justify-content: space-between;
+}
+.firstPage img{
+    width: 460px;
+}
+.firstPage h1{
+    margin-top: 76px;
+    width: 720px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 53px;
+}
+.firstPage p{
+    margin-top: 14px;
+    width: 460px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 130px;
+}
+.firstPage button{
+    width: 250px;
+    height: 50px;
+    margin-left: 230px;
+    margin-top: 23px;
+}
+
+.food{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 150px;
+}
+.singleCard{
+    margin-right: 140px;
+    
+}
+.titl {
+    text-align: center;
+    margin: 50px 0 ;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+  }
+.singleCard img{
+    width: 70px;
+}
+.singleCard p{
+    margin-left: 4px;
+}
+.cards {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ .h2{
+ margin-left: 400px;
+ margin-top: 45px;
+}
+.card{
+    margin-left: 50px;
+}
+.card img{
+    width: 300px;
+    margin-right: 45px;
+
+}
+.card p{
+    width: 240px;
+    margin-left: 40px;
+    margin-bottom: 45px;
+}
+

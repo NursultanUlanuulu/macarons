@@ -27,6 +27,10 @@ import Cake_pops from "../pages/Cake_pops";
 import AssembleSet from "../pages/AssembleSet";
 import CreateDesign from "../pages/CreateDesign";
 import SingleProduct from "../pages/SingleProduct";
+import KaramelOptom from "../pages/karamelOptom";
+import KorporatibnyePodarki from "../pages/KorporatibnyePodarki";
+import EkleryOptom from "../pages/EkleryOptom";
+import Politika from "../pages/Politika";
 
 export const MainRoutes = () => {
   return (
@@ -68,9 +72,16 @@ export const MainRoutes = () => {
         <Route path={INITIAL_PATH.karamel} element={<Karamel />} />
         <Route path={INITIAL_PATH.trubochki} element={<Trubochki />} />
         <Route path={INITIAL_PATH.cake_pops} element={<Cake_pops />} />
-        <Route path={INITIAL_PATH.sobrat_nabor} element={<AssembleSet/>} />
-        <Route path={INITIAL_PATH.print} element={<CreateDesign/>}/>
-        <Route path={INITIAL_PATH.product} element={<SingleProduct/>}/>
+        <Route path={INITIAL_PATH.sobrat_nabor} element={<AssembleSet />} />
+        <Route path={INITIAL_PATH.print} element={<CreateDesign />} />
+        <Route path={INITIAL_PATH.product} element={<SingleProduct />} />
+        <Route path={INITIAL_PATH.karamell} element={<KaramelOptom />} />
+        <Route
+          path={INITIAL_PATH.korporativ}
+          element={<KorporatibnyePodarki />}
+        />
+        <Route path={INITIAL_PATH.ekleryOptom} element={<EkleryOptom />} />
+        <Route path={INITIAL_PATH.politika} element={<Politika />} />
       </Route>
     </Routes>
   );
