@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./App.module.css";
 import { MainRoutes } from "../../routes/MainRoutes";
 const App = () => {

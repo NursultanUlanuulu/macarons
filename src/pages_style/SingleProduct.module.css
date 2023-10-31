@@ -1,0 +1,109 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detal {
+  margin-left: 30px;
+}
+
+.textFlex {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ededf0;
+  width: 570px;
+  height: 156px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 31px;
+  width: 570px;
+  height: 80px;
+  border-radius: 5px;
+  border: 1px solid #ededf0;
+  background: #fff;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.dscr {
+  margin-left: 27px;
+}
+
+.prDscr {
+  width: 1170px;
+  height: 309px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #ededf0;
+  background: #fff;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #e7426a;
+  color: white;
+  border: transparent;
+  width: 178px;
+  height: 50px;
+}
+
+.btn img {
+  margin-right: 10px;
+}
+
+.navigate ul {
+  display: flex;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #ededf0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigate ul li {
+  position: relative;
+  padding: 22px;
+  color: var(--292929, #292929);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.navigate ul li::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  border-bottom: 3px solid transparent; /* Исходная невидимая граница */
+  transition: border-color 0.3s ease; /* Плавное изменение цвета границы */
+}
+
+.navigate ul li:hover::before {
+  border-color: #e7426a; /* Цвет границы при наведении */
+}
+.tab_content {
+  padding: 20px;
+}
+.tab_content p {
+  color: var(--292929, #292929);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}

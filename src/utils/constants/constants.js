@@ -153,6 +153,10 @@ import eklery_12 from "../../assets/img/eklery/eklery_12.png";
 
 //////////////KARAMEL NA PALOCHKE/////////
 
+/////prodoct detal///
+import detal from "../../assets/img/singleProduct/d.svg"
+import detal1 from "../../assets/img/singleProduct/c.svg"
+import detal2 from "../../assets/img/singleProduct/b.svg"
 /////////путь////////
 export const INITIAL_PATH = {
   main_page: "/",
@@ -180,6 +184,7 @@ export const INITIAL_PATH = {
   cake_pops: "/cake_pops",
   sobrat_nabor: "/sobrat-nabor",
   print: "/print/",
+  product: "/product",
 };
 
 ///////header/////////
@@ -626,6 +631,22 @@ export const featuresData = [
     description:
       "Предложение для кофеен, кафе, отелей и т.д.Посмотрите условия сотрудничества и отзывы.",
     path: "/deserty_dlya_kofejni",
+  },
+];
+/////product detal////
+export const productDetalData = [
+  {
+    img: detal,
+    title:
+      "Доставка от 400 руб. в день заказа с 12 до 17 или с 17 до 21. Бесплатно при заказе на сумму от 2000 руб",
+  },
+  {
+    img: detal1,
+    title: "Самовывоз бесплатно.Через 3 часа после оплаты заказа",
+  },
+  {
+    img: detal2,
+    title: "Можем преподнести как анонимный подарок:",
   },
 ];
 /////////////guarantee-гарантияData//////

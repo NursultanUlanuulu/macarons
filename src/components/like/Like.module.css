@@ -1,0 +1,81 @@
+.flex {
+  display: flex;
+}
+.title {
+  text-align: center;
+  margin: 60px 0 36px;
+  color: var(--292929, #292929);
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.cards {
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 271px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+
+.heard {
+  padding-bottom: 10px;
+}
+
+.text {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  padding-left: 10px;
+  text-align: start;
+  color: #e7426a;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.cart {
+  width: 50%;
+  display: flex;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.btn a {
+  width: 230px;
+  border: 1px solid #4e9dd3;
+  padding: 18px 50px;
+  color: black;
+  background-color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: center;
+}
+
+.btn a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #4e9dd3;
+}

@@ -1,6 +1,7 @@
 .back1 {
   background-color: #f7ebe5;
 }
+
 .slide {
   display: flex;
   justify-content: center;
@@ -8,6 +9,7 @@
   align-items: center;
   height: 50px;
 }
+
 .header_first {
   display: flex;
   justify-content: space-evenly;
@@ -24,6 +26,7 @@
   list-style: none;
   margin-left: 14px;
   padding: 21px;
+  border-bottom: 2px solid transparent; /* Добавьте невидимую границу */
 }
 
 .menu a {
@@ -31,7 +34,7 @@
 }
 
 .menu li:hover {
-  border-bottom: 2px solid red;
+  border-color: red; /* Установите цвет границы при наведении */
   padding-bottom: 19px;
 }
 
@@ -75,8 +78,7 @@
   left: 0;
   width: 200px;
   background-color: white;
-  display: block;
-  display: none;
+  display: none; /* Скройте подсписки по умолчанию */
 }
 
 .nav ul li ul li {
@@ -88,5 +90,5 @@
 }
 
 .nav ul li:hover ul {
-  display: initial;
+  display: initial; /* Покажите подсписок при наведении */
 }

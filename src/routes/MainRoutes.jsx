@@ -26,6 +26,7 @@ import Trubochki from "../pages/Trubochki";
 import Cake_pops from "../pages/Cake_pops";
 import AssembleSet from "../pages/AssembleSet";
 import CreateDesign from "../pages/CreateDesign";
+import SingleProduct from "../pages/SingleProduct";
 
 export const MainRoutes = () => {
   return (
@@ -69,6 +70,7 @@ export const MainRoutes = () => {
         <Route path={INITIAL_PATH.cake_pops} element={<Cake_pops />} />
         <Route path={INITIAL_PATH.sobrat_nabor} element={<AssembleSet/>} />
         <Route path={INITIAL_PATH.print} element={<CreateDesign/>}/>
+        <Route path={INITIAL_PATH.product} element={<SingleProduct/>}/>
       </Route>
     </Routes>
   );
