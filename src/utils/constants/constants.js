@@ -190,12 +190,13 @@ export const INITIAL_PATH = {
   trubochki: "/trubochki",
   cake_pops: "/cake_pops",
   sobrat_nabor: "/sobrat-nabor",
-  product: "/product",
+  product: "/product/:productId",
   print: "/print",
   karamell: "/karamel-opt",
   korporativ: "/korporativnye-podarki",
   ekleryOptom: "/eklery-optom",
   politika: "/politica",
+  backet: "/backet",
 };
 
 ///////header/////////
@@ -613,12 +614,14 @@ export const featuresData = [
     img: card2,
     title: "Собрать свой набор",
     description: "Выбрать количество макарун, и выбрать вкусы",
+    path: "/sobrat-nabor",
   },
   {
     id: 3,
     img: card3,
     title: "Набор с индивидуальной печатью",
     description: "Собрать набор макарон с уникальным дизайном. ",
+    path: "/print",
   },
   {
     id: 4,
@@ -634,6 +637,7 @@ export const featuresData = [
     title: "Корпоративные подарки",
     description:
       "От 85 руб за шт. С уникальным дизайном. Приятный комплимент для коллег и партнеров",
+    path: "/korporativnye-podarki",
   },
   {
     id: 6,

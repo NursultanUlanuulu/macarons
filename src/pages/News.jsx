@@ -1,6 +1,13 @@
+import { useEffect } from "react";
 import style from "../pages_style/News.module.css";
 import { newsData } from "../utils/constants/constants";
 const News = () => {
+      useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }, []);
     return (
         <>
             <h1 className={style.title}>Нововсти</h1>

@@ -6,7 +6,14 @@ import mkr1 from "../assets/img/svadebnyeNabory/minimakaron1.png";
 import mkr2 from "../assets/img/svadebnyeNabory/miniMakaron2.png";
 import leaf from "../assets/img/svadebnyeNabory/leaf.png";
 import { ShoppingOutlined } from "@ant-design/icons";
+import { useEffect } from "react";
 const SvadebnoePred = () => {
+    useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }, []);
   return (
     //block-1
     <div style={{ backgroundColor: "#F6F6F6" }}>

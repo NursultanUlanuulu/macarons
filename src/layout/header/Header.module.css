@@ -66,6 +66,14 @@
 .nav ul a {
   color: #2b1414;
 }
+.hov {
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.hov:hover {
+  border-bottom: 2px solid red;
+}
 
 .nav ul li {
   margin-right: 15px;
@@ -78,7 +86,7 @@
   left: 0;
   width: 200px;
   background-color: white;
-  display: none; /* Скройте подсписки по умолчанию */
+  display: none;
 }
 
 .nav ul li ul li {
@@ -90,5 +98,8 @@
 }
 
 .nav ul li:hover ul {
-  display: initial; /* Покажите подсписок при наведении */
+  display: initial;
+}
+.hiden:hover {
+  background: #f7f7f7;
 }

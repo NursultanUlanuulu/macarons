@@ -1,7 +1,14 @@
 import { popularData } from "../utils/constants/constants";
 import { ShoppingOutlined } from "@ant-design/icons";
 import style from "../pages_style/Gift.module.css";
+import { useEffect } from "react";
 const Gift = () => {
+      useEffect (() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }, []);
     return (
         <div>
             <h1 className={style.title}>Подарочные наборы</h1>

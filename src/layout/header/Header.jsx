@@ -57,7 +57,9 @@ const Header = () => {
             {headerData.map((item) => (
               <div className={style.header_actions} key={item.id}>
                 <div className={style.actions}>
-                  <img src={item.svg} alt="" />
+                  <Link to={INITIAL_PATH.backet}>
+                    <img src={item.svg} alt="" />
+                  </Link>
                   <span>{item.title}</span>
                 </div>
               </div>
@@ -68,7 +70,7 @@ const Header = () => {
           <div className={style.header_second}>
             <div className={style.nav}>
               <ul>
-                <Link to={INITIAL_PATH.sales_week}>
+                <Link to={INITIAL_PATH.sales_week} className={style.hov}>
                   <li className={style.hover}>СЛАДКИЕ ДНИ</li>
                 </Link>
                 <li>
@@ -76,32 +78,29 @@ const Header = () => {
                   <DownOutlined />
                   <ul>
                     <Link to={INITIAL_PATH.podarochnye_nabory}>
-                      <li>ВСЕ НАБОРЫ </li>
+                      <li className={style.hiden}>ВСЕ НАБОРЫ </li>
                     </Link>
                     <Link to={INITIAL_PATH.denUchitelya}>
-                      {" "}
-                      <li>ДЕНЬ УЧИТЕЛЯ</li>
+                      <li className={style.hiden}>ДЕНЬ УЧИТЕЛЯ</li>
                     </Link>
                     <Link to={INITIAL_PATH.happyBirthday}>
-                      {" "}
-                      <li>ДЕНЬ РОЖДЕНИЯ</li>
+                      <li className={style.hiden}>ДЕНЬ РОЖДЕНИЯ</li>
                     </Link>
                     <Link to={INITIAL_PATH.classicMacarons}>
-                      <li>МАКАРОНС КЛАСИЧЕСКИЕ</li>
+                      <li className={style.hiden}> МАКАРОНС КЛАСИЧЕСКИЕ</li>
                     </Link>
                     <Link to={INITIAL_PATH.svadNabory}>
-                      <li> СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</li>
+                      <li className={style.hiden}> СВАДЕБНЫЕ ПРЕДЛОЖЕНИЯ</li>
                     </Link>
                     <Link to={INITIAL_PATH.kendiBary}>
-                      {" "}
-                      <li>КЕНДИ-БАРЫ</li>
+                      <li className={style.hiden}>КЕНДИ-БАРЫ</li>
                     </Link>
                     <Link to={INITIAL_PATH.dlyaDetey}>
-                      <li>ДЕТСКИЕ ПРАЗДНИКИ</li>
+                      <li className={style.hiden}>ДЕТСКИЕ ПРАЗДНИКИ</li>
                     </Link>
                   </ul>
                 </li>
-                <Link to={INITIAL_PATH.sobrat_nabor}>
+                <Link to={INITIAL_PATH.sobrat_nabor} className={style.hov}>
                   <li className={style.hover}>СОБРАТЬ НАБОР</li>
                 </Link>
               </ul>
@@ -113,44 +112,50 @@ const Header = () => {
             </div>
             <div className={style.nav}>
               <ul>
-                <Link to={INITIAL_PATH.print}>
+                <Link to={INITIAL_PATH.print} className={style.hov}>
                   <li className={style.hover}>СОЗДАТЬ ДИЗАЙН</li>
                 </Link>
                 <li>
                   КОМПАНИЯМ <DownOutlined />
                   <ul>
                     <Link to={INITIAL_PATH.deserty_dlya_kofejni}>
-                      <li>ОПТОВЫЕ ПОСТАВКИ</li>
+                      <li className={style.hiden}>ОПТОВЫЕ ПОСТАВКИ</li>
                     </Link>
-                    <Link to={INITIAL_PATH.karamell}><li>КАРАМЕЛЬ НА ПАЛОЧКЕ ОПТОМ</li></Link>
-                     <Link to={INITIAL_PATH.korporativ}>  <li>КОРПОРАТИВНЫЕ ПОДАКИ</li></Link>
-                   
-                    <Link to={INITIAL_PATH.ekleryOptom}><li>ЭЛКЕРЫ ОПТОМ</li></Link>
+                    <Link to={INITIAL_PATH.karamell}>
+                      <li className={style.hiden}>КАРАМЕЛЬ НА ПАЛОЧКЕ ОПТОМ</li>
+                    </Link>
+                    <Link to={INITIAL_PATH.korporativ}>
+                      <li className={style.hiden}>КОРПОРАТИВНЫЕ ПОДАКИ</li>
+                    </Link>
+
+                    <Link to={INITIAL_PATH.ekleryOptom}>
+                      <li className={style.hiden}>ЭЛКЕРЫ ОПТОМ</li>
+                    </Link>
                   </ul>
                 </li>
                 <li>
                   ВЕСЬ КАТАЛОГ <DownOutlined />
                   <ul>
                     <Link to={INITIAL_PATH.macaron}>
-                      <li>МАКАРОН</li>
+                      <li className={style.hiden}>МАКАРОН</li>
                     </Link>
                     <Link to={INITIAL_PATH.eklery}>
-                      <li>ЭКЛЕРЫ</li>
+                      <li className={style.hiden}>ЭКЛЕРЫ</li>
                     </Link>
                     <Link to={INITIAL_PATH.podarochnye_nabory}>
-                      <li>ПОДАРОЧНЫЕ НАБОРЫ</li>
+                      <li className={style.hiden}>ПОДАРОЧНЫЕ НАБОРЫ</li>
                     </Link>
                     <Link to={INITIAL_PATH.kombo_nabory}>
-                      <li>КОМБО-НАБОРЫ</li>
+                      <li className={style.hiden}>КОМБО-НАБОРЫ</li>
                     </Link>
                     <Link to={INITIAL_PATH.karamel}>
-                      <li>КАРАМЕЛЬ НА ПАЛОЧКЕ</li>
+                      <li className={style.hiden}>КАРАМЕЛЬ НА ПАЛОЧКЕ</li>
                     </Link>
                     <Link to={INITIAL_PATH.trubochki}>
-                      <li>ВАФЕЛЬНЫЕ ТРУБОЧКИ</li>
+                      <li className={style.hiden}>ВАФЕЛЬНЫЕ ТРУБОЧКИ</li>
                     </Link>
                     <Link to={INITIAL_PATH.cake_pops}>
-                      <li>КЕЙК-ПОПСЫ</li>
+                      <li className={style.hiden}>КЕЙК-ПОПСЫ</li>
                     </Link>
                   </ul>
                 </li>

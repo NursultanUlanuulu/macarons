@@ -1,7 +1,7 @@
 import style from "./Popular.module.css";
 import { ShoppingOutlined } from "@ant-design/icons";
 import { popularData } from "../../utils/constants/constants";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 const textAnimation = {
   hidden: {
@@ -26,6 +26,8 @@ const popularAnimation = {
   }),
 };
 const Popular = () => {
+const navigate = useNavigate();
+
   return (
     <motion.div
       initial="hidden"
@@ -47,7 +49,11 @@ const Popular = () => {
             key={item.id}
           >
             <div className="">
-              <img src={item.img} alt="" />
+              <img
+                src={item.img}
+                alt=""
+                onClick={() => navigate(`/product/${item.id}`)}
+              />
             </div>
             <div className={style.text}>
               <h3 className={style.heard}>{item.title}</h3>

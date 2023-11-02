@@ -1,10 +1,20 @@
+import { useEffect } from 'react';
 import styles from '../pages_style/HappyBirthday.module.css'
 import { happyBirthdayData } from '../utils/constants/constants'
 import { ShoppingOutlined } from '@ant-design/icons'
 const HappyBirthday = () => {
+    useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }, []);
   return (
-    <div> 
-    <h1 style={{ textAlign: 'center', fontSize: '30px', marginTop: '49px' }}>День рождения</h1>
+    <div>
+      npm install react-leaflet leaflet
+      <h1 style={{ textAlign: "center", fontSize: "30px", marginTop: "49px" }}>
+        День рождения
+      </h1>
       <div className={styles.cards}>
         {happyBirthdayData.map((item, id) => (
           <div key={id} className={styles.card}>
@@ -18,15 +28,18 @@ const HappyBirthday = () => {
             <div className={styles.priceCart}>
               <h4 className={styles.price}>{item.price} руб</h4>
               <div className={styles.cart}>
-                <p> <ShoppingOutlined /></p>
+                <p>
+                  {" "}
+                  <ShoppingOutlined />
+                </p>
                 <h5>В корзину</h5>
               </div>
             </div>
           </div>
         ))}
       </div>
- </div>
-  )
+    </div>
+  );
 }
 
 export default HappyBirthday

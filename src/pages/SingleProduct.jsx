@@ -1,41 +1,55 @@
-import sp from "../assets/img/singleProduct/sp.png";
 import a from "../assets/img/singleProduct/a.svg";
 import style from "../pages_style/SingleProduct.module.css";
-import { productDetalData } from "../utils/constants/constants";
+import { popularData, productDetalData } from "../utils/constants/constants";
 import Like from "../components/like/Like";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 const SingleProduct = () => {
+  const params = useParams();
   const [activeTab, setActiveTab] = useState(0);
 
   const handleTabClick = (index) => {
     setActiveTab(index);
   };
+
+  const imageSrc = popularData.find(product => product.id === +params.productId);
+  const price = popularData.find(product => product.id === +params.productId);
+  const title = popularData.find(product => product.id === +params.productId);
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
+
+  console.log(imageSrc, params.productId);
   return (
     <div>
       <div className={style.flex}>
         <div>
-          <img src={sp} alt="" />
+          <img src={imageSrc.img} width={550} />
         </div>
         <div className={style.detal}>
           <div>
-            <h1>Сердце</h1>
+            <h1>{title.title}</h1>
             <p>40 макаронс в круглой коробке с персональной надписью</p>
           </div>
           <div className={style.textFlex}>
-            <div>
+            <div className={style.vkus}>
               <h3>Вкусы:</h3>
               <p>Яблоко </p>
               <p> Вишня </p>
               <p> Кокос </p>
             </div>
-            <div>
+            <div className={style.sht}>
               <p>4 шт.</p>
               <p>8 шт. </p>
               <p>12 шт.</p>
             </div>
           </div>
           <div className={style.price}>
-            <h1>2800 руб</h1>
+            <h1>{price.price}руб</h1>
             <button className={style.btn}>
               <img src={a} alt="" />В корзину
             </button>

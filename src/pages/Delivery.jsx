@@ -5,8 +5,9 @@ import makaron2 from "../assets/img/delivery/makaron2.png";
 import vector from "../assets/img/delivery/Vector.png";
 import layer1 from "../assets/img/delivery/Layer 35 1.png";
 import layer2 from "../assets/img/delivery/Layer 34 1.png";
-import map from "../assets/img/delivery/map.png";
+// import map from "../assets/img/delivery/map.png";
 import styles from "../pages_style/Delivery.module.css";
+// import WordMap from "../components/map/WordMap";
 const Delivery = () => {
   return (
     <div>
@@ -91,7 +92,7 @@ const Delivery = () => {
           <img className={styles.layer2} src={layer2} alt="" />
         </div>
       </div>
-      <img className={styles.mapImg} src={map} alt="" />
+      {/* <WordMap/> */}
     </div>
   );
 };
