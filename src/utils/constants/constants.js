@@ -196,6 +196,7 @@ export const INITIAL_PATH = {
   korporativ: "/korporativnye-podarki",
   ekleryOptom: "/eklery-optom",
   politika: "/politica",
+  buy:'buy'
 };
 
 ///////header/////////

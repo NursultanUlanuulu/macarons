@@ -31,11 +31,15 @@ import KaramelOptom from "../pages/karamelOptom";
 import KorporatibnyePodarki from "../pages/KorporatibnyePodarki";
 import EkleryOptom from "../pages/EkleryOptom";
 import Politika from "../pages/Politika";
+// import DownloadCatalog from "../pages/DownloadCatalog";
+// import { useState } from "react";
 
 export const MainRoutes = () => {
+
+
   return (
     <Routes>
-      <Route path={INITIAL_PATH.main_page} element={<Layout />}>
+      <Route path={INITIAL_PATH.main_page} element={<Layout/>}>
         <Route index element={<MainPage />} />
         <Route path={INITIAL_PATH.guarantee} element={<Guarantee />} />
         <Route
@@ -82,6 +86,9 @@ export const MainRoutes = () => {
         />
         <Route path={INITIAL_PATH.ekleryOptom} element={<EkleryOptom />} />
         <Route path={INITIAL_PATH.politika} element={<Politika />} />
+        {/* <Route path={INITIAL_PATH.buy} element= {isVisible && <DownloadCatalog setIsVisible={setIsVisible}/>}/> */}
+       
+
       </Route>
     </Routes>
   );

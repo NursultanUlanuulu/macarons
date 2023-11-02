@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ekleryData, sulpesFooterData } from '../utils/constants/constants'
 import style from '../pages_style/EkleryOptom.module.css'
 import Sotrudnichestvo from './Sotrudnichestvo'
-
+import DownloadCatalog from './DownloadCatalog'
 const EkleryOptom = () => {
+
+    const [isVisible, setIsVisible] = useState(false)
+  
+    const buttonClick = () => {
+      setIsVisible(true);
+    };
     return (
         <div>
             <div className={style.firstPage}>
@@ -14,7 +20,8 @@ const EkleryOptom = () => {
                 <div>
                     <h1>Эклеры оптом</h1>
                     <p>Макаруны оптом от производителя, а также эклеры, пирожное картошка, кейк-посы, леденцовая карамель, маффины, орешки со сгущенкой и вафельные трубочки. Наши пирожные продаются в крупнейших кондитерских и кофейных сетях Санкт-Петербурга и Москвы. Они хорошо узнаваемы, что позволяют делать высокую наценку, и имеют более 75% повторных покупок.</p>
-                    <button>Скачать полный каталог</button>
+                    <button onClick={buttonClick}>Скачать полный каталог</button>
+          {isVisible && <DownloadCatalog setIsVisible={setIsVisible}/>}
                 </div>
             </div>
             <div>
