@@ -197,6 +197,7 @@ export const INITIAL_PATH = {
   ekleryOptom: "/eklery-optom",
   politika: "/politica",
   backet: "/backet",
+  buy:'buy'
 };
 
 ///////header/////////

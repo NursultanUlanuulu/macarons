@@ -32,13 +32,15 @@ import KorporatibnyePodarki from "../pages/KorporatibnyePodarki";
 import EkleryOptom from "../pages/EkleryOptom";
 import Politika from "../pages/Politika";
 import Backet from "../pages/Backet";
+// import DownloadCatalog from "../pages/DownloadCatalog";
+// import { useState } from "react";
 
 export const MainRoutes = () => {
   return (
     <Routes>
       <Route path={INITIAL_PATH.main_page} element={<Layout />}>
         <Route index element={<MainPage />} />
-        <Route path={INITIAL_PATH.backet} element={<Backet/>} />
+        <Route path={INITIAL_PATH.backet} element={<Backet />} />
         <Route path={INITIAL_PATH.guarantee} element={<Guarantee />} />
         <Route
           path={INITIAL_PATH.deserty_dlya_kofejni}
@@ -84,6 +86,7 @@ export const MainRoutes = () => {
         />
         <Route path={INITIAL_PATH.ekleryOptom} element={<EkleryOptom />} />
         <Route path={INITIAL_PATH.politika} element={<Politika />} />
+        {/* <Route path={INITIAL_PATH.buy} element= {isVisible && <DownloadCatalog setIsVisible={setIsVisible}/>}/> */}
       </Route>
     </Routes>
   );
